@@ -141,9 +141,9 @@ def run_scheduler():
     print(f"[进程{os.getpid()}] 已清除所有现有定时任务")
 
     # 分别设置不同的时间发送不同类型的通知
-    schedule.every().day.at("09:45").do(send_bug_assignment_notification)
+    schedule.every().day.at("08:30").do(send_bug_assignment_notification)
 
-    schedule.every().day.at("09:50").do(send_combined_notification)
+    schedule.every().day.at("17:30").do(send_combined_notification)
 
     while True:
         schedule.run_pending()
