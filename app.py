@@ -1,54 +1,3 @@
-# from flask import Flask
-# from routes import api
-# from config import FLASK_HOST, FLASK_PORT, FLASK_DEBUG
-# from dingtalk import send_dingtalk_message
-# from excel_handler import get_original_duty_person, get_today_date
-# import schedule
-# import time
-# from threading import Thread
-#
-#
-# def create_app():
-#     """创建Flask应用"""
-#     app = Flask(__name__)
-#     app.register_blueprint(api, url_prefix='/api')
-#     return app
-#
-#
-# def send_daily_notification(test_data=None):
-#     """发送每日值班通知"""
-#     today = get_today_date()
-#     oncall_person = get_original_duty_person(test_data)
-#     if oncall_person:
-#         content = f"【今日值班通知】\n日期：{test_data}\n值班人：{oncall_person}"
-#         # 发送钉钉通知
-#         send_dingtalk_message(content)
-#     print(f"已发送{test_data}值班通知")
-#
-#
-# def run_scheduler():
-#     """启动定时任务（每天早上9点发送通知）"""
-#     schedule.every().day.at("16:45").do(send_daily_notification)
-#     while True:
-#         schedule.run_pending()
-#         time.sleep(60)
-#
-#
-# test_data = '2025-09-18'
-# send_daily_notification(test_data)
-#
-# # if __name__ == "__main__":
-# #     app = create_app()
-# #
-# #     # 启动定时任务线程
-# #     scheduler_thread = Thread(target=run_scheduler, daemon=True)
-# #     scheduler_thread.start()
-# #
-# #     # 启动Flask应用
-# #     app.run(host=FLASK_HOST, port=FLASK_PORT, debug=FLASK_DEBUG)
-
-
-# --------------------
 
 from flask import Flask
 from routes import api
@@ -143,7 +92,7 @@ def run_scheduler():
     # 分别设置不同的时间发送不同类型的通知
     schedule.every().day.at("08:30").do(send_bug_assignment_notification)
 
-    schedule.every().day.at("17:30").do(send_combined_notification)
+    schedule.every().day.at("17:20").do(send_combined_notification)
 
     while True:
         schedule.run_pending()

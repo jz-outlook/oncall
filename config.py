@@ -1,6 +1,10 @@
 # 钉钉配置
-DINGTALK_WEBHOOK = "https://oapi.dingtalk.com/robot/send?access_token=7bc8eb87427a8f930652d536c7036fb2853f243e806b469f576e7485b1307406"
-DINGTALK_SECRET = "SECb543e65306f7de90f92589c852bbc2c7d521b9e56f01e69a219b485e08eb9bbe"
+# DINGTALK_WEBHOOK = "https://oapi.dingtalk.com/robot/send?access_token=7bc8eb87427a8f930652d536c7036fb2853f243e806b469f576e7485b1307406"
+# DINGTALK_SECRET = "SECb543e65306f7de90f92589c852bbc2c7d521b9e56f01e69a219b485e08eb9bbe"
+
+# 测试对接群配置
+DINGTALK_WEBHOOK = "https://oapi.dingtalk.com/robot/send?access_token=cc83f6f282335c930625d8956ed339a88d83c6bc2b49d068668feea9fd8b79bf"
+DINGTALK_SECRET = "SECf47d74d3c6df68c257b38436dd0a5ebd9ec3e85458c278a154cb1e48d6019cb3"
 
 
 # Flask配置

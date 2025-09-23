@@ -1,29 +1,3 @@
-# from flask import Blueprint, request, jsonify
-# from excel_handler import get_original_duty_person
-#
-# # 创建蓝图
-# api = Blueprint('api', __name__)
-#
-#
-# @api.route('/update_duty_replace', methods=['POST'])
-# def update_duty_replace():
-#     """更新值班替换记录的接口"""
-#     data = request.json
-#     # 校验必填参数
-#     required_fields = ["date", "replace_person"]
-#     if not all(field in data for field in required_fields):
-#         return jsonify({"status": "error", "message": "缺少必填参数（date/replace_person）"}), 400
-#
-#     # 获取原值班人
-#     original_person = get_original_duty_person(data["date"])
-#     if not original_person:
-#         return jsonify({"status": "error", "message": f"未找到{data['date']}的原始值班记录"}), 404
-
-
-
-
-# --------
-
 
 from flask import Blueprint, request, jsonify
 from excel_handler import get_original_duty_person, get_bug_assignment_person
