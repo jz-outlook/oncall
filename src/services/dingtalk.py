@@ -57,7 +57,7 @@ def send_dingtalk_message(content, webhook_url=None, at_all=True, secret=None):
 
 
 # 保留原有的企业应用API方式作为备用
-def send_dingtalk_message_enterprise(content, chat_id=None, at_all=True):
+def send_dingtalk_message_enterprise(content, at_all=True):
     """发送文本消息到钉钉群（企业应用API方式）"""
     from config.settings import DINGTALK_APP_KEY, DINGTALK_APP_SECRET, DINGTALK_GET_TOKEN_URL, DINGTALK_SEND_MESSAGE_URL
 
@@ -119,10 +119,6 @@ def send_dingtalk_message_enterprise(content, chat_id=None, at_all=True):
         data["at"] = {
             "isAtAll": True
         }
-
-    # 如果有指定的群ID
-    if chat_id:
-        data["chatid"] = chat_id
 
     headers = {"Content-Type": "application/json;charset=utf-8"}
 

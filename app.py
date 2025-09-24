@@ -160,37 +160,37 @@ def run_scheduler():
             time.sleep(60)  # 继续运行，不中断
 
 
-if __name__ == "__main__":
-    try:
-        logger.info("🚀 === OnCall系统启动 ===")
-        logger.info(f"进程ID: {os.getpid()}")
-        logger.info(f"Flask配置: {FLASK_HOST}:{FLASK_PORT}, Debug: {FLASK_DEBUG}")
+# if __name__ == "__main__":
+#     try:
+#         logger.info("🚀 === OnCall系统启动 ===")
+#         logger.info(f"进程ID: {os.getpid()}")
+#         logger.info(f"Flask配置: {FLASK_HOST}:{FLASK_PORT}, Debug: {FLASK_DEBUG}")
+#
+#         app = create_app()
+#
+#         # 启动定时任务线程
+#         logger.info("启动定时任务线程...")
+#         scheduler_thread = Thread(target=run_scheduler, daemon=True)
+#         scheduler_thread.start()
+#         logger.info("定时任务线程启动成功")
+#
+#         logger.info(f"✅ 应用启动成功，监听端口 {FLASK_PORT}")
+#         logger.info("系统已就绪，等待请求...")
+#
+#         app.run(host=FLASK_HOST, port=FLASK_PORT, debug=FLASK_DEBUG)
+#
+#     except KeyboardInterrupt:
+#         logger.info("�� 收到中断信号，正在关闭系统...")
+#     except Exception as e:
+#         logger.critical(f"�� 应用启动失败: {str(e)}")
+#         raise
+#     finally:
+#         logger.info("👋 OnCall系统已关闭")
 
-        app = create_app()
-
-        # 启动定时任务线程
-        logger.info("启动定时任务线程...")
-        scheduler_thread = Thread(target=run_scheduler, daemon=True)
-        scheduler_thread.start()
-        logger.info("定时任务线程启动成功")
-
-        logger.info(f"✅ 应用启动成功，监听端口 {FLASK_PORT}")
-        logger.info("系统已就绪，等待请求...")
-
-        app.run(host=FLASK_HOST, port=FLASK_PORT, debug=FLASK_DEBUG)
-
-    except KeyboardInterrupt:
-        logger.info("�� 收到中断信号，正在关闭系统...")
-    except Exception as e:
-        logger.critical(f"�� 应用启动失败: {str(e)}")
-        raise
-    finally:
-        logger.info("👋 OnCall系统已关闭")
 
 # # 测试代码
 # test_data = '2025-09-16'
 # send_bug_assignment_notification(test_data)
 
-
-# test_data = '2025-11-12'
+# test_data = '2025-09-16'
 # send_combined_notification(test_data)
