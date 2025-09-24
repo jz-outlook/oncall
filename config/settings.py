@@ -7,7 +7,9 @@ DINGTALK_GET_TOKEN_URL = "https://oapi.dingtalk.com/gettoken"
 DINGTALK_SEND_MESSAGE_URL = "https://oapi.dingtalk.com/chat/send"
 
 # 钉钉自定义机器人配置（测试小群）
-DINGTALK_ROBOT_WEBHOOK = "https://oapi.dingtalk.com/robot/send?access_token=a09c321dd246a4228483b2c58cd08bde3cf6f18edea7ab51362f6a75600f37ef"
+# DINGTALK_ROBOT_WEBHOOK = "https://oapi.dingtalk.com/robot/send?access_token=a09c321dd246a4228483b2c58cd08bde3cf6f18edea7ab51362f6a75600f37ef"
+# 钉钉自定义机器人配置（新测试群）
+DINGTALK_ROBOT_WEBHOOK = "https://oapi.dingtalk.com/robot/send?access_token=d1806cbc1785407d474a388815863f5e3b471aa5539295cc5ffd24d918ba7109"
 
 # 钉钉机器人配置
 DINGTALK_BOT_NAME = "OnCall机器人"  # 机器人名称
