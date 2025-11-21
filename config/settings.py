@@ -1,4 +1,8 @@
-# 钉钉企业机器人配置
+# # 钉钉企业机器人配置
+# DINGTALK_APP_KEY = "dingeekmytdfqs3qy8sn"  # 替换为您的实际APP_KEY
+# DINGTALK_APP_SECRET = "Ni8v5yLLKAAVArgFpoKSrjTXlY15ED2FYniqcTZhiTSGE4uBA4E99CNJMZi_H9Nk"  # 替换为您的实际APP_SECRET
+
+# 钉钉企业机器人配置(本地环境)
 DINGTALK_APP_KEY = "dingeekmytdfqs3qy8sn"  # 替换为您的实际APP_KEY
 DINGTALK_APP_SECRET = "Ni8v5yLLKAAVArgFpoKSrjTXlY15ED2FYniqcTZhiTSGE4uBA4E99CNJMZi_H9Nk"  # 替换为您的实际APP_SECRET
 
@@ -7,9 +11,9 @@ DINGTALK_GET_TOKEN_URL = "https://oapi.dingtalk.com/gettoken"
 DINGTALK_SEND_MESSAGE_URL = "https://oapi.dingtalk.com/chat/send"
 
 # 钉钉自定义机器人配置（测试小群）
-# DINGTALK_ROBOT_WEBHOOK = "https://oapi.dingtalk.com/robot/send?access_token=a09c321dd246a4228483b2c58cd08bde3cf6f18edea7ab51362f6a75600f37ef"
+DINGTALK_ROBOT_WEBHOOK = "https://oapi.dingtalk.com/robot/send?access_token=a09c321dd246a4228483b2c58cd08bde3cf6f18edea7ab51362f6a75600f37ef"
 # 钉钉自定义机器人配置（新测试群）
-DINGTALK_ROBOT_WEBHOOK = "https://oapi.dingtalk.com/robot/send?access_token=d1806cbc1785407d474a388815863f5e3b471aa5539295cc5ffd24d918ba7109"
+# DINGTALK_ROBOT_WEBHOOK = "https://oapi.dingtalk.com/robot/send?access_token=d1806cbc1785407d474a388815863f5e3b471aa5539295cc5ffd24d918ba7109"
 
 # 钉钉机器人配置
 DINGTALK_BOT_NAME = "OnCall机器人"  # 机器人名称
@@ -17,7 +21,7 @@ DINGTALK_WEBHOOK_URL = "http://39.174.95.42:5008/api/dingtalk/webhook"  # 需要
 
 # Flask配置
 FLASK_HOST = "0.0.0.0"
-FLASK_PORT = 5008
+FLASK_PORT = 6000
 FLASK_DEBUG = False
 
 # 值班人员列表
