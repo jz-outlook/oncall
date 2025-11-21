@@ -1,0 +1,21 @@
+2025-09-24 14:42:18 - oncall - ERROR - 失败: 创建Flask应用, 耗时: 0.001秒, 错误: View function mapping is overwriting an existing endpoint function: api.wrapper
+2025-09-24 14:42:18 - oncall.app - CRITICAL - �� 应用启动失败: View function mapping is overwriting an existing endpoint function: api.wrapper
+2025-09-24 14:52:44 - oncall.excel_handler - ERROR - ❌ 更新后仍未找到2025-09-19的值班信息
+2025-09-24 14:54:40 - oncall.excel_handler - ERROR - ❌ 更新后仍未找到2025-09-19的值班信息
+2025-09-24 14:54:48 - oncall.excel_handler - ERROR - ❌ 更新后仍未找到2025-09-18的值班信息
+2025-09-24 14:55:49 - oncall.excel_handler - ERROR - ❌ 更新后仍未找到2025-09-18的值班信息
+2025-09-24 15:00:17 - oncall.excel_handler - ERROR - ❌ 发送Excel文件异常: cannot import name 'send_dingtalk_file' from 'src.services.dingtalk' (/Users/Wework/oncall /src/services/dingtalk.py)
+2025-09-24 15:00:32 - oncall.excel_handler - ERROR - ❌ 发送Excel文件异常: cannot import name 'send_dingtalk_file' from 'src.services.dingtalk' (/Users/Wework/oncall /src/services/dingtalk.py)
+2025-09-24 15:21:40 - oncall.excel_handler - ERROR - ❌ Excel文件发送失败: {'errcode': 40016, 'errmsg': '不合法的会话ID'}
+2025-09-24 15:23:10 - oncall.excel_handler - ERROR - ❌ Excel文件发送失败: {'errcode': 40016, 'errmsg': '不合法的会话ID'}
+2025-09-24 15:24:34 - oncall.excel_handler - ERROR - ❌ 发送Excel文件异常: cannot import name 'send_dingtalk_file' from 'src.services.dingtalk' (/Users/Wework/oncall /src/services/dingtalk.py)
+2025-09-24 15:25:01 - oncall.excel_handler - ERROR - ❌ 更新后仍未找到2025-09-13的值班信息
+2025-09-24 15:25:22 - oncall.excel_handler - ERROR - ❌ 发送Excel文件异常: cannot import name 'send_dingtalk_file' from 'src.services.dingtalk' (/Users/Wework/oncall /src/services/dingtalk.py)
+2025-09-24 15:25:50 - oncall.excel_handler - ERROR - ❌ 发送Excel文件异常: cannot import name 'send_dingtalk_file' from 'src.services.dingtalk' (/Users/Wework/oncall /src/services/dingtalk.py)
+2025-09-24 15:25:57 - oncall.excel_handler - ERROR - ❌ 发送Excel文件异常: cannot import name 'send_dingtalk_file' from 'src.services.dingtalk' (/Users/Wework/oncall /src/services/dingtalk.py)
+2025-11-21 14:23:59 - oncall.excel_handler - ERROR - ❌ Excel文件中缺少必需的列: 姓名
+2025-11-21 14:23:59 - oncall.excel_handler - ERROR - Excel文件中实际存在的列: 日期, 星期, 技术值班人
+2025-11-21 14:24:37 - oncall.excel_handler - ERROR - ❌ Excel文件中缺少必需的列: 姓名
+2025-11-21 14:24:37 - oncall.excel_handler - ERROR - Excel文件中实际存在的列: 日期, 星期, 技术值班人
+2025-11-21 14:28:22 - oncall.excel_handler - ERROR - ❌ Excel文件中缺少必需的列: 姓名
+2025-11-21 14:28:22 - oncall.excel_handler - ERROR - Excel文件中实际存在的列: 日期, 星期, 技术值班人

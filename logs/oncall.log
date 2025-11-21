@@ -1,0 +1,1567 @@
+2025-09-24 14:33:09 - oncall.app - INFO - === OnCall系统启动 ===
+2025-09-24 14:33:09 - oncall - INFO - 开始: 创建Flask应用
+2025-09-24 14:33:09 - oncall.app - INFO - Flask应用创建成功
+2025-09-24 14:33:09 - oncall - INFO - 完成: 创建Flask应用, 耗时: 0.001秒
+2025-09-24 14:33:09 - oncall.app - INFO - [进程25195] 启动定时任务调度器
+2025-09-24 14:33:09 - oncall.app - INFO - 应用启动成功，监听端口 5008
+2025-09-24 14:33:09 - oncall.app - INFO - [进程25195] 已清除所有现有定时任务
+2025-09-24 14:33:09 - oncall.app - INFO - 定时任务配置完成，开始运行调度器
+2025-09-24 14:37:51 - oncall.app - INFO - 🚀 === OnCall系统启动 ===
+2025-09-24 14:37:51 - oncall.app - INFO - 进程ID: 25311
+2025-09-24 14:37:51 - oncall.app - INFO - Flask配置: 0.0.0.0:5008, Debug: False
+2025-09-24 14:37:51 - oncall - INFO - 开始: 创建Flask应用
+2025-09-24 14:37:51 - oncall.app - INFO - Flask应用创建成功
+2025-09-24 14:37:51 - oncall - INFO - 完成: 创建Flask应用, 耗时: 0.001秒
+2025-09-24 14:37:51 - oncall.app - INFO - 启动定时任务线程...
+2025-09-24 14:37:51 - oncall.app - INFO - [进程25311] 启动定时任务调度器
+2025-09-24 14:37:51 - oncall.app - INFO - 定时任务线程启动成功
+2025-09-24 14:37:51 - oncall.app - INFO - [进程25311] 已清除所有现有定时任务
+2025-09-24 14:37:51 - oncall.app - INFO - ✅ 应用启动成功，监听端口 5008
+2025-09-24 14:37:51 - oncall.app - INFO - �� 定时任务配置完成:
+2025-09-24 14:37:51 - oncall.app - INFO - 系统已就绪，等待请求...
+2025-09-24 14:37:51 - oncall.app - INFO -   - 08:30 发送禅道指派通知
+2025-09-24 14:37:51 - oncall.app - INFO -   - 17:20 发送综合工作安排通知
+2025-09-24 14:37:51 - oncall.app - INFO - 开始运行调度器...
+2025-09-24 14:40:35 - oncall.app - INFO - 👋 OnCall系统已关闭
+2025-09-24 14:40:36 - oncall.app - INFO - 🚀 === OnCall系统启动 ===
+2025-09-24 14:40:36 - oncall.app - INFO - 进程ID: 25365
+2025-09-24 14:40:36 - oncall.app - INFO - Flask配置: 0.0.0.0:5008, Debug: False
+2025-09-24 14:40:36 - oncall - INFO - 开始: 创建Flask应用
+2025-09-24 14:40:36 - oncall.app - INFO - Flask应用创建成功
+2025-09-24 14:40:36 - oncall - INFO - 完成: 创建Flask应用, 耗时: 0.004秒
+2025-09-24 14:40:36 - oncall.app - INFO - 启动定时任务线程...
+2025-09-24 14:40:36 - oncall.app - INFO - [进程25365] 启动定时任务调度器
+2025-09-24 14:40:36 - oncall.app - INFO - 定时任务线程启动成功
+2025-09-24 14:40:36 - oncall.app - INFO - [进程25365] 已清除所有现有定时任务
+2025-09-24 14:40:36 - oncall.app - INFO - ✅ 应用启动成功，监听端口 5008
+2025-09-24 14:40:36 - oncall.app - INFO - �� 定时任务配置完成:
+2025-09-24 14:40:36 - oncall.app - INFO - 系统已就绪，等待请求...
+2025-09-24 14:40:36 - oncall.app - INFO -   - 08:30 发送禅道指派通知
+2025-09-24 14:40:36 - oncall.app - INFO -   - 17:20 发送综合工作安排通知
+2025-09-24 14:40:36 - oncall.app - INFO - 开始运行调度器...
+2025-09-24 14:40:42 - oncall - INFO - 开始执行函数: src.services.excel_handler.get_original_duty_person
+2025-09-24 14:40:42 - oncall.excel_handler - INFO - 开始查询值班人员，测试数据: 2025-09-24
+2025-09-24 14:40:42 - oncall.excel_handler - INFO - �� 开始读取Excel文件
+2025-09-24 14:40:42 - oncall.excel_handler - INFO - ✅ Excel文件读取成功，共63行数据
+2025-09-24 14:40:42 - oncall.excel_handler - INFO - 🔍 查找日期 2025-09-24 的值班信息
+2025-09-24 14:40:42 - oncall.excel_handler - INFO - ✅ 找到值班人员: 王朝霞
+2025-09-24 14:40:42 - oncall - INFO - 函数执行完成: src.services.excel_handler.get_original_duty_person, 耗时: 0.105秒
+2025-09-24 14:40:42 - oncall - INFO - 开始执行函数: src.services.excel_handler.get_bug_assignment_person
+2025-09-24 14:40:42 - oncall.excel_handler - INFO - 开始获取禅道指派人员，测试数据: 2025-09-24
+2025-09-24 14:40:42 - oncall.excel_handler - INFO - ✅ 禅道指派人员计算完成: 张笑笑 (索引: 0, 总人数: 2)
+2025-09-24 14:40:42 - oncall - INFO - 函数执行完成: src.services.excel_handler.get_bug_assignment_person, 耗时: 0.000秒
+2025-09-24 14:41:50 - oncall.app - INFO - 👋 OnCall系统已关闭
+2025-09-24 14:42:18 - oncall.app - INFO - 🚀 === OnCall系统启动 ===
+2025-09-24 14:42:18 - oncall.app - INFO - 进程ID: 25408
+2025-09-24 14:42:18 - oncall.app - INFO - Flask配置: 0.0.0.0:5008, Debug: False
+2025-09-24 14:42:18 - oncall - INFO - 开始: 创建Flask应用
+2025-09-24 14:42:18 - oncall - ERROR - 失败: 创建Flask应用, 耗时: 0.001秒, 错误: View function mapping is overwriting an existing endpoint function: api.wrapper
+2025-09-24 14:42:18 - oncall.app - CRITICAL - �� 应用启动失败: View function mapping is overwriting an existing endpoint function: api.wrapper
+2025-09-24 14:42:18 - oncall.app - INFO - 👋 OnCall系统已关闭
+2025-09-24 14:42:41 - oncall.app - INFO - 🚀 === OnCall系统启动 ===
+2025-09-24 14:42:41 - oncall.app - INFO - 进程ID: 25428
+2025-09-24 14:42:41 - oncall.app - INFO - Flask配置: 0.0.0.0:5008, Debug: False
+2025-09-24 14:42:41 - oncall - INFO - 开始: 创建Flask应用
+2025-09-24 14:42:41 - oncall.app - INFO - Flask应用创建成功
+2025-09-24 14:42:41 - oncall - INFO - 完成: 创建Flask应用, 耗时: 0.002秒
+2025-09-24 14:42:41 - oncall.app - INFO - 启动定时任务线程...
+2025-09-24 14:42:41 - oncall.app - INFO - [进程25428] 启动定时任务调度器
+2025-09-24 14:42:41 - oncall.app - INFO - 定时任务线程启动成功
+2025-09-24 14:42:41 - oncall.app - INFO - [进程25428] 已清除所有现有定时任务
+2025-09-24 14:42:41 - oncall.app - INFO - ✅ 应用启动成功，监听端口 5008
+2025-09-24 14:42:41 - oncall.app - INFO - �� 定时任务配置完成:
+2025-09-24 14:42:41 - oncall.app - INFO -   - 08:30 发送禅道指派通知
+2025-09-24 14:42:41 - oncall.app - INFO - 系统已就绪，等待请求...
+2025-09-24 14:42:41 - oncall.app - INFO -   - 17:20 发送综合工作安排通知
+2025-09-24 14:42:41 - oncall.app - INFO - 开始运行调度器...
+2025-09-24 14:42:43 - oncall.app - INFO - 👋 OnCall系统已关闭
+2025-09-24 14:43:42 - oncall.app - INFO - 🚀 === OnCall系统启动 ===
+2025-09-24 14:43:42 - oncall.app - INFO - 进程ID: 25452
+2025-09-24 14:43:42 - oncall.app - INFO - Flask配置: 0.0.0.0:5008, Debug: False
+2025-09-24 14:43:42 - oncall - INFO - 开始: 创建Flask应用
+2025-09-24 14:43:42 - oncall.app - INFO - Flask应用创建成功
+2025-09-24 14:43:42 - oncall - INFO - 完成: 创建Flask应用, 耗时: 0.001秒
+2025-09-24 14:43:42 - oncall.app - INFO - 启动定时任务线程...
+2025-09-24 14:43:42 - oncall.app - INFO - [进程25452] 启动定时任务调度器
+2025-09-24 14:43:42 - oncall.app - INFO - 定时任务线程启动成功
+2025-09-24 14:43:42 - oncall.app - INFO - [进程25452] 已清除所有现有定时任务
+2025-09-24 14:43:42 - oncall.app - INFO - ✅ 应用启动成功，监听端口 5008
+2025-09-24 14:43:42 - oncall.app - INFO - �� 定时任务配置完成:
+2025-09-24 14:43:42 - oncall.app - INFO - 系统已就绪，等待请求...
+2025-09-24 14:43:42 - oncall.app - INFO -   - 08:30 发送禅道指派通知
+2025-09-24 14:43:42 - oncall.app - INFO -   - 17:20 发送综合工作安排通知
+2025-09-24 14:43:42 - oncall.app - INFO - 开始运行调度器...
+2025-09-24 14:43:48 - oncall.api - INFO - 收到钉钉Webhook请求 - IP: 59.82.21.204, 方法: POST
+2025-09-24 14:43:48 - oncall.api - INFO - 收到钉钉消息数据: {"senderPlatform": "Mac", "conversationId": "cidOIyoZ+iSH+Xd2kGDkQan6w==", "atUsers": [{"dingtalkId": "$:LWCP_v1:$HhnnADi8UMdBFqp6nbN7W78EuoB+3P15"}], "chatbotCorpId": "dingb8740e62bcc6ba1e24f2f5cc6abecb85", "chatbotUserId": "$:LWCP_v1:$HhnnADi8UMdBFqp6nbN7W78EuoB+3P15", "openThreadId": "cidOIyoZ+iSH+Xd2kGDkQan6w==", "msgId": "msg0tVqyNKPMmV9TUCSEQKxYQ==", "senderNick": "ㅤ饿了么~", "isAdmin": true, "senderStaffId": "163008641524410432", "sessionWebhookExpiredTime": 1758701628309, "createAt": 1758696228122, "senderCorpId": "dingb8740e62bcc6ba1e24f2f5cc6abecb85", "conversationType": "2", "senderId": "$:LWCP_v1:$rl/VMptM8EA9i9hP3kBukQ==", "conversationTitle": "测试小群", "isInAtList": true, "sessionWebhook": "https://oapi.dingtalk.com/robot/sendBySession?session=dabc3ef23375f29d725544035ac79540", "text": {"content": " 值班"}, "robotCode": "dingeekmytdfqs3qy8sn", "msgtype": "text"}
+2025-09-24 14:43:48 - oncall.api - INFO - 收到文本消息: 值班
+2025-09-24 14:43:48 - oncall.api - INFO - 匹配到关键词，开始处理
+2025-09-24 14:43:48 - oncall - INFO - 开始执行函数: src.services.excel_handler.get_original_duty_person
+2025-09-24 14:43:48 - oncall.excel_handler - INFO - 开始查询值班人员，测试数据: 2025-09-24
+2025-09-24 14:43:48 - oncall.excel_handler - INFO - �� 开始读取Excel文件
+2025-09-24 14:43:48 - oncall.excel_handler - INFO - ✅ Excel文件读取成功，共63行数据
+2025-09-24 14:43:48 - oncall.excel_handler - INFO - 🔍 查找日期 2025-09-24 的值班信息
+2025-09-24 14:43:48 - oncall.excel_handler - INFO - ✅ 找到值班人员: 王朝霞
+2025-09-24 14:43:48 - oncall - INFO - 函数执行完成: src.services.excel_handler.get_original_duty_person, 耗时: 0.125秒
+2025-09-24 14:43:48 - oncall - INFO - 开始执行函数: src.services.excel_handler.get_bug_assignment_person
+2025-09-24 14:43:48 - oncall.excel_handler - INFO - 开始获取禅道指派人员，测试数据: 2025-09-24
+2025-09-24 14:43:48 - oncall.excel_handler - INFO - ✅ 禅道指派人员计算完成: 张笑笑 (索引: 0, 总人数: 2)
+2025-09-24 14:43:48 - oncall - INFO - 函数执行完成: src.services.excel_handler.get_bug_assignment_person, 耗时: 0.000秒
+2025-09-24 14:43:48 - oncall.api - INFO - 查询结果 - 值班人: 王朝霞, 禅道指派: 张笑笑
+2025-09-24 14:43:48 - oncall.api - INFO - 准备回复内容: 📅 2025-09-24 工作安排：
+🔧 值班人：王朝霞
+🐛 禅道指派：张笑笑
+2025-09-24 14:44:30 - oncall.app - INFO - 👋 OnCall系统已关闭
+2025-09-24 14:45:16 - oncall.app - INFO - 🚀 === OnCall系统启动 ===
+2025-09-24 14:45:16 - oncall.app - INFO - 进程ID: 25538
+2025-09-24 14:45:16 - oncall.app - INFO - Flask配置: 0.0.0.0:5008, Debug: False
+2025-09-24 14:45:16 - oncall - INFO - 开始: 创建Flask应用
+2025-09-24 14:45:16 - oncall.app - INFO - Flask应用创建成功
+2025-09-24 14:45:16 - oncall - INFO - 完成: 创建Flask应用, 耗时: 0.002秒
+2025-09-24 14:45:16 - oncall.app - INFO - 启动定时任务线程...
+2025-09-24 14:45:16 - oncall.app - INFO - [进程25538] 启动定时任务调度器
+2025-09-24 14:45:16 - oncall.app - INFO - [进程25538] 已清除所有现有定时任务
+2025-09-24 14:45:16 - oncall.app - INFO - 定时任务线程启动成功
+2025-09-24 14:45:16 - oncall.app - INFO - �� 定时任务配置完成:
+2025-09-24 14:45:16 - oncall.app - INFO - ✅ 应用启动成功，监听端口 5008
+2025-09-24 14:45:16 - oncall.app - INFO -   - 08:30 发送禅道指派通知
+2025-09-24 14:45:16 - oncall.app - INFO - 系统已就绪，等待请求...
+2025-09-24 14:45:16 - oncall.app - INFO -   - 17:20 发送综合工作安排通知
+2025-09-24 14:45:16 - oncall.app - INFO - 开始运行调度器...
+2025-09-24 14:45:20 - oncall.api - INFO - 收到钉钉Webhook请求 - IP: 59.82.83.36, 方法: POST
+2025-09-24 14:45:20 - oncall.api - INFO - 收到钉钉消息数据: {"senderPlatform": "Mac", "conversationId": "cidOIyoZ+iSH+Xd2kGDkQan6w==", "atUsers": [{"dingtalkId": "$:LWCP_v1:$HhnnADi8UMdBFqp6nbN7W78EuoB+3P15"}], "chatbotCorpId": "dingb8740e62bcc6ba1e24f2f5cc6abecb85", "chatbotUserId": "$:LWCP_v1:$HhnnADi8UMdBFqp6nbN7W78EuoB+3P15", "openThreadId": "cidOIyoZ+iSH+Xd2kGDkQan6w==", "msgId": "msgsmhV7xiJQ/M3RnTDJgWVxg==", "senderNick": "ㅤ饿了么~", "isAdmin": true, "senderStaffId": "163008641524410432", "sessionWebhookExpiredTime": 1758701720478, "createAt": 1758696320272, "senderCorpId": "dingb8740e62bcc6ba1e24f2f5cc6abecb85", "conversationType": "2", "senderId": "$:LWCP_v1:$rl/VMptM8EA9i9hP3kBukQ==", "conversationTitle": "测试小群", "isInAtList": true, "sessionWebhook": "https://oapi.dingtalk.com/robot/sendBySession?session=dabc3ef23375f29d725544035ac79540", "text": {"content": " 123"}, "robotCode": "dingeekmytdfqs3qy8sn", "msgtype": "text"}
+2025-09-24 14:45:20 - oncall.api - INFO - 收到文本消息: 123
+2025-09-24 14:45:20 - oncall.api - INFO - 未匹配到关键词，返回默认回复
+2025-09-24 14:50:28 - oncall.app - INFO - 👋 OnCall系统已关闭
+2025-09-24 14:50:29 - oncall.app - INFO - 🚀 === OnCall系统启动 ===
+2025-09-24 14:50:29 - oncall.app - INFO - 进程ID: 25643
+2025-09-24 14:50:29 - oncall.app - INFO - Flask配置: 0.0.0.0:5008, Debug: False
+2025-09-24 14:50:29 - oncall - INFO - 开始: 创建Flask应用
+2025-09-24 14:50:29 - oncall.app - INFO - Flask应用创建成功
+2025-09-24 14:50:29 - oncall - INFO - 完成: 创建Flask应用, 耗时: 0.001秒
+2025-09-24 14:50:29 - oncall.app - INFO - 启动定时任务线程...
+2025-09-24 14:50:29 - oncall.app - INFO - [进程25643] 启动定时任务调度器
+2025-09-24 14:50:29 - oncall.app - INFO - 定时任务线程启动成功
+2025-09-24 14:50:29 - oncall.app - INFO - [进程25643] 已清除所有现有定时任务
+2025-09-24 14:50:29 - oncall.app - INFO - ✅ 应用启动成功，监听端口 5008
+2025-09-24 14:50:29 - oncall.app - INFO - �� 定时任务配置完成:
+2025-09-24 14:50:29 - oncall.app - INFO - 系统已就绪，等待请求...
+2025-09-24 14:50:29 - oncall.app - INFO -   - 08:30 发送禅道指派通知
+2025-09-24 14:50:29 - oncall.app - INFO -   - 17:20 发送综合工作安排通知
+2025-09-24 14:50:29 - oncall.app - INFO - 开始运行调度器...
+2025-09-24 14:50:32 - oncall.app - INFO - 👋 OnCall系统已关闭
+2025-09-24 14:50:56 - oncall - INFO - 开始执行函数: __main__.send_combined_notification
+2025-09-24 14:50:56 - oncall.app - INFO - [进程25663] 开始发送综合通知 - 2025-09-24 14:50:56
+2025-09-24 14:50:56 - oncall - INFO - 开始: 发送综合工作安排通知
+2025-09-24 14:50:56 - oncall.app - INFO - 查询2025-09-24的工作安排
+2025-09-24 14:50:56 - oncall - INFO - 开始执行函数: src.services.excel_handler.get_original_duty_person
+2025-09-24 14:50:56 - oncall.excel_handler - INFO - 开始查询值班人员，测试数据: 2025-09-24
+2025-09-24 14:50:56 - oncall.excel_handler - INFO - �� 开始读取Excel文件
+2025-09-24 14:50:56 - oncall.excel_handler - INFO - ✅ Excel文件读取成功，共63行数据
+2025-09-24 14:50:56 - oncall.excel_handler - INFO - 🔍 查找日期 2025-09-24 的值班信息
+2025-09-24 14:50:56 - oncall.excel_handler - INFO - ✅ 找到值班人员: 王朝霞
+2025-09-24 14:50:56 - oncall - INFO - 函数执行完成: src.services.excel_handler.get_original_duty_person, 耗时: 0.072秒
+2025-09-24 14:50:56 - oncall - INFO - 开始执行函数: src.services.excel_handler.get_bug_assignment_person
+2025-09-24 14:50:56 - oncall.excel_handler - INFO - 开始获取禅道指派人员，测试数据: 2025-09-24
+2025-09-24 14:50:56 - oncall.excel_handler - INFO - ✅ 禅道指派人员计算完成: 张笑笑 (索引: 0, 总人数: 2)
+2025-09-24 14:50:56 - oncall - INFO - 函数执行完成: src.services.excel_handler.get_bug_assignment_person, 耗时: 0.000秒
+2025-09-24 14:50:56 - oncall.app - INFO - 值班人员: 王朝霞, 禅道指派: 张笑笑
+2025-09-24 14:50:56 - oncall.app - INFO - 准备发送综合通知，内容：【OnCall】
+日期：2025-09-24
+值班人：王朝霞
+禅道指派：张笑笑
+2025-09-24 14:50:56 - oncall.app - INFO - ✅ [进程25663] 已发送2025-09-24综合工作安排通知
+2025-09-24 14:50:56 - oncall - INFO - 完成: 发送综合工作安排通知, 耗时: 0.267秒
+2025-09-24 14:50:56 - oncall - INFO - 函数执行完成: __main__.send_combined_notification, 耗时: 0.267秒
+2025-09-24 14:52:43 - oncall - INFO - 开始执行函数: __main__.send_combined_notification
+2025-09-24 14:52:43 - oncall.app - INFO - [进程25693] 开始发送综合通知 - 2025-09-24 14:52:43
+2025-09-24 14:52:43 - oncall - INFO - 开始: 发送综合工作安排通知
+2025-09-24 14:52:43 - oncall.app - INFO - 查询2025-09-19的工作安排
+2025-09-24 14:52:43 - oncall - INFO - 开始执行函数: src.services.excel_handler.get_original_duty_person
+2025-09-24 14:52:43 - oncall.excel_handler - INFO - 开始查询值班人员，测试数据: 2025-09-19
+2025-09-24 14:52:43 - oncall.excel_handler - INFO - �� 开始读取Excel文件
+2025-09-24 14:52:43 - oncall.excel_handler - INFO - ✅ Excel文件读取成功，共63行数据
+2025-09-24 14:52:43 - oncall.excel_handler - INFO - 🔍 查找日期 2025-09-19 的值班信息
+2025-09-24 14:52:43 - oncall.excel_handler - WARNING - ⚠️ 未在值班表中找到2025-09-19的值班记录，开始更新值班计划
+2025-09-24 14:52:43 - oncall - INFO - 开始: 更新值班计划表
+2025-09-24 14:52:43 - oncall - INFO - 开始执行函数: src.services.excel_handler.replace_dates
+2025-09-24 14:52:43 - oncall.excel_handler - INFO - 开始更新DataFrame日期，起始日期: 2025-09-19
+2025-09-24 14:52:43 - oncall.excel_handler - INFO - ✅ DataFrame日期更新完成，共更新63行
+2025-09-24 14:52:43 - oncall - INFO - 函数执行完成: src.services.excel_handler.replace_dates, 耗时: 0.002秒
+2025-09-24 14:52:43 - oncall.excel_handler - INFO - 💾 保存更新后的值班计划到: 值班计划表.xlsx
+2025-09-24 14:52:43 - oncall.excel_handler - INFO - ✅ 值班计划已保存: 值班计划表.xlsx
+2025-09-24 14:52:43 - oncall.excel_handler - INFO - 📤 开始推送更新后的值班计划到钉钉群
+2025-09-24 14:52:44 - oncall.excel_handler - INFO - ✅ 值班计划推送成功
+2025-09-24 14:52:44 - oncall.excel_handler - INFO - �� 重新读取更新后的文件
+2025-09-24 14:52:44 - oncall.excel_handler - INFO - 🔍 重新查找日期 2025-09-19 的值班信息
+2025-09-24 14:52:44 - oncall.excel_handler - ERROR - ❌ 更新后仍未找到2025-09-19的值班信息
+2025-09-24 14:52:44 - oncall - INFO - 完成: 更新值班计划表, 耗时: 0.211秒
+2025-09-24 14:52:44 - oncall - INFO - 函数执行完成: src.services.excel_handler.get_original_duty_person, 耗时: 0.278秒
+2025-09-24 14:52:44 - oncall - INFO - 开始执行函数: src.services.excel_handler.get_bug_assignment_person
+2025-09-24 14:52:44 - oncall.excel_handler - INFO - 开始获取禅道指派人员，测试数据: 2025-09-19
+2025-09-24 14:52:44 - oncall.excel_handler - INFO - ✅ 禅道指派人员计算完成: 马刘磊 (索引: 1, 总人数: 2)
+2025-09-24 14:52:44 - oncall - INFO - 函数执行完成: src.services.excel_handler.get_bug_assignment_person, 耗时: 0.000秒
+2025-09-24 14:52:44 - oncall.app - INFO - 值班人员: 未找到, 禅道指派: 马刘磊
+2025-09-24 14:52:44 - oncall.app - INFO - 准备发送综合通知，内容：【OnCall】
+日期：2025-09-19
+禅道指派：马刘磊
+2025-09-24 14:52:44 - oncall.app - INFO - ✅ [进程25693] 已发送2025-09-19综合工作安排通知
+2025-09-24 14:52:44 - oncall - INFO - 完成: 发送综合工作安排通知, 耗时: 0.450秒
+2025-09-24 14:52:44 - oncall - INFO - 函数执行完成: __main__.send_combined_notification, 耗时: 0.450秒
+2025-09-24 14:54:39 - oncall - INFO - 开始执行函数: __main__.send_combined_notification
+2025-09-24 14:54:39 - oncall.app - INFO - [进程25748] 开始发送综合通知 - 2025-09-24 14:54:39
+2025-09-24 14:54:39 - oncall - INFO - 开始: 发送综合工作安排通知
+2025-09-24 14:54:39 - oncall.app - INFO - 查询2025-09-19的工作安排
+2025-09-24 14:54:39 - oncall - INFO - 开始执行函数: src.services.excel_handler.get_original_duty_person
+2025-09-24 14:54:39 - oncall.excel_handler - INFO - 开始查询值班人员，测试数据: 2025-09-19
+2025-09-24 14:54:39 - oncall.excel_handler - INFO -  开始读取Excel文件
+2025-09-24 14:54:39 - oncall.excel_handler - INFO - ✅ Excel文件读取成功，共63行数据
+2025-09-24 14:54:39 - oncall.excel_handler - INFO - 🔍 查找日期 2025-09-19 的值班信息
+2025-09-24 14:54:39 - oncall.excel_handler - WARNING - ⚠️ 未在值班表中找到2025-09-19的值班记录，开始更新值班计划
+2025-09-24 14:54:39 - oncall - INFO - 开始: 更新值班计划表
+2025-09-24 14:54:39 - oncall - INFO - 开始执行函数: src.services.excel_handler.replace_dates
+2025-09-24 14:54:39 - oncall.excel_handler - INFO - 开始更新DataFrame日期，起始日期: 2025-09-19
+2025-09-24 14:54:39 - oncall.excel_handler - INFO - ✅ DataFrame日期更新完成，共更新63行
+2025-09-24 14:54:39 - oncall - INFO - 函数执行完成: src.services.excel_handler.replace_dates, 耗时: 0.002秒
+2025-09-24 14:54:39 - oncall.excel_handler - INFO - 💾 保存更新后的值班计划到: 值班计划表.xlsx
+2025-09-24 14:54:39 - oncall.excel_handler - INFO - ✅ 值班计划已保存: 值班计划表.xlsx
+2025-09-24 14:54:39 - oncall.excel_handler - INFO - 📤 开始发送Excel文件到钉钉群: 值班计划表.xlsx
+2025-09-24 14:54:40 - oncall.excel_handler - INFO - ✅ Excel文件发送成功
+2025-09-24 14:54:40 - oncall.excel_handler - INFO -  重新读取更新后的文件
+2025-09-24 14:54:40 - oncall.excel_handler - INFO - 🔍 重新查找日期 2025-09-19 的值班信息
+2025-09-24 14:54:40 - oncall.excel_handler - ERROR - ❌ 更新后仍未找到2025-09-19的值班信息
+2025-09-24 14:54:40 - oncall - INFO - 完成: 更新值班计划表, 耗时: 0.199秒
+2025-09-24 14:54:40 - oncall - INFO - 函数执行完成: src.services.excel_handler.get_original_duty_person, 耗时: 0.282秒
+2025-09-24 14:54:40 - oncall - INFO - 开始执行函数: src.services.excel_handler.get_bug_assignment_person
+2025-09-24 14:54:40 - oncall.excel_handler - INFO - 开始获取禅道指派人员，测试数据: 2025-09-19
+2025-09-24 14:54:40 - oncall.excel_handler - INFO - ✅ 禅道指派人员计算完成: 马刘磊 (索引: 1, 总人数: 2)
+2025-09-24 14:54:40 - oncall - INFO - 函数执行完成: src.services.excel_handler.get_bug_assignment_person, 耗时: 0.000秒
+2025-09-24 14:54:40 - oncall.app - INFO - 值班人员: 未找到, 禅道指派: 马刘磊
+2025-09-24 14:54:40 - oncall.app - INFO - 准备发送综合通知，内容：【OnCall】
+日期：2025-09-19
+禅道指派：马刘磊
+2025-09-24 14:54:40 - oncall.app - INFO - ✅ [进程25748] 已发送2025-09-19综合工作安排通知
+2025-09-24 14:54:40 - oncall - INFO - 完成: 发送综合工作安排通知, 耗时: 0.446秒
+2025-09-24 14:54:40 - oncall - INFO - 函数执行完成: __main__.send_combined_notification, 耗时: 0.446秒
+2025-09-24 14:54:48 - oncall - INFO - 开始执行函数: __main__.send_combined_notification
+2025-09-24 14:54:48 - oncall.app - INFO - [进程25757] 开始发送综合通知 - 2025-09-24 14:54:48
+2025-09-24 14:54:48 - oncall - INFO - 开始: 发送综合工作安排通知
+2025-09-24 14:54:48 - oncall.app - INFO - 查询2025-09-18的工作安排
+2025-09-24 14:54:48 - oncall - INFO - 开始执行函数: src.services.excel_handler.get_original_duty_person
+2025-09-24 14:54:48 - oncall.excel_handler - INFO - 开始查询值班人员，测试数据: 2025-09-18
+2025-09-24 14:54:48 - oncall.excel_handler - INFO -  开始读取Excel文件
+2025-09-24 14:54:48 - oncall.excel_handler - INFO - ✅ Excel文件读取成功，共63行数据
+2025-09-24 14:54:48 - oncall.excel_handler - INFO - 🔍 查找日期 2025-09-18 的值班信息
+2025-09-24 14:54:48 - oncall.excel_handler - WARNING - ⚠️ 未在值班表中找到2025-09-18的值班记录，开始更新值班计划
+2025-09-24 14:54:48 - oncall - INFO - 开始: 更新值班计划表
+2025-09-24 14:54:48 - oncall - INFO - 开始执行函数: src.services.excel_handler.replace_dates
+2025-09-24 14:54:48 - oncall.excel_handler - INFO - 开始更新DataFrame日期，起始日期: 2025-09-18
+2025-09-24 14:54:48 - oncall.excel_handler - INFO - ✅ DataFrame日期更新完成，共更新63行
+2025-09-24 14:54:48 - oncall - INFO - 函数执行完成: src.services.excel_handler.replace_dates, 耗时: 0.001秒
+2025-09-24 14:54:48 - oncall.excel_handler - INFO - 💾 保存更新后的值班计划到: 值班计划表.xlsx
+2025-09-24 14:54:48 - oncall.excel_handler - INFO - ✅ 值班计划已保存: 值班计划表.xlsx
+2025-09-24 14:54:48 - oncall.excel_handler - INFO - 📤 开始发送Excel文件到钉钉群: 值班计划表.xlsx
+2025-09-24 14:54:48 - oncall.excel_handler - INFO - ✅ Excel文件发送成功
+2025-09-24 14:54:48 - oncall.excel_handler - INFO -  重新读取更新后的文件
+2025-09-24 14:54:48 - oncall.excel_handler - INFO - 🔍 重新查找日期 2025-09-18 的值班信息
+2025-09-24 14:54:48 - oncall.excel_handler - ERROR - ❌ 更新后仍未找到2025-09-18的值班信息
+2025-09-24 14:54:48 - oncall - INFO - 完成: 更新值班计划表, 耗时: 0.180秒
+2025-09-24 14:54:48 - oncall - INFO - 函数执行完成: src.services.excel_handler.get_original_duty_person, 耗时: 0.228秒
+2025-09-24 14:54:48 - oncall - INFO - 开始执行函数: src.services.excel_handler.get_bug_assignment_person
+2025-09-24 14:54:48 - oncall.excel_handler - INFO - 开始获取禅道指派人员，测试数据: 2025-09-18
+2025-09-24 14:54:48 - oncall.excel_handler - INFO - ✅ 禅道指派人员计算完成: 张笑笑 (索引: 0, 总人数: 2)
+2025-09-24 14:54:48 - oncall - INFO - 函数执行完成: src.services.excel_handler.get_bug_assignment_person, 耗时: 0.000秒
+2025-09-24 14:54:48 - oncall.app - INFO - 值班人员: 未找到, 禅道指派: 张笑笑
+2025-09-24 14:54:48 - oncall.app - INFO - 准备发送综合通知，内容：【OnCall】
+日期：2025-09-18
+禅道指派：张笑笑
+2025-09-24 14:54:48 - oncall.app - INFO - ✅ [进程25757] 已发送2025-09-18综合工作安排通知
+2025-09-24 14:54:48 - oncall - INFO - 完成: 发送综合工作安排通知, 耗时: 0.383秒
+2025-09-24 14:54:48 - oncall - INFO - 函数执行完成: __main__.send_combined_notification, 耗时: 0.384秒
+2025-09-24 14:55:49 - oncall - INFO - 开始执行函数: __main__.send_combined_notification
+2025-09-24 14:55:49 - oncall.app - INFO - [进程25774] 开始发送综合通知 - 2025-09-24 14:55:49
+2025-09-24 14:55:49 - oncall - INFO - 开始: 发送综合工作安排通知
+2025-09-24 14:55:49 - oncall.app - INFO - 查询2025-09-18的工作安排
+2025-09-24 14:55:49 - oncall - INFO - 开始执行函数: src.services.excel_handler.get_original_duty_person
+2025-09-24 14:55:49 - oncall.excel_handler - INFO - 开始查询值班人员，测试数据: 2025-09-18
+2025-09-24 14:55:49 - oncall.excel_handler - INFO - �� 开始读取Excel文件
+2025-09-24 14:55:49 - oncall.excel_handler - INFO - ✅ Excel文件读取成功，共63行数据
+2025-09-24 14:55:49 - oncall.excel_handler - INFO - 🔍 查找日期 2025-09-18 的值班信息
+2025-09-24 14:55:49 - oncall.excel_handler - WARNING - ⚠️ 未在值班表中找到2025-09-18的值班记录，开始更新值班计划
+2025-09-24 14:55:49 - oncall - INFO - 开始: 更新值班计划表
+2025-09-24 14:55:49 - oncall - INFO - 开始执行函数: src.services.excel_handler.replace_dates
+2025-09-24 14:55:49 - oncall.excel_handler - INFO - 开始更新DataFrame日期，起始日期: 2025-09-18
+2025-09-24 14:55:49 - oncall.excel_handler - INFO - ✅ DataFrame日期更新完成，共更新63行
+2025-09-24 14:55:49 - oncall - INFO - 函数执行完成: src.services.excel_handler.replace_dates, 耗时: 0.001秒
+2025-09-24 14:55:49 - oncall.excel_handler - INFO - 💾 保存更新后的值班计划到: 值班计划表.xlsx
+2025-09-24 14:55:49 - oncall.excel_handler - INFO - ✅ 值班计划已保存: 值班计划表.xlsx
+2025-09-24 14:55:49 - oncall.excel_handler - INFO - �� 重新读取更新后的文件
+2025-09-24 14:55:49 - oncall.excel_handler - INFO - 🔍 重新查找日期 2025-09-18 的值班信息
+2025-09-24 14:55:49 - oncall.excel_handler - ERROR - ❌ 更新后仍未找到2025-09-18的值班信息
+2025-09-24 14:55:49 - oncall - INFO - 完成: 更新值班计划表, 耗时: 0.016秒
+2025-09-24 14:55:49 - oncall - INFO - 函数执行完成: src.services.excel_handler.get_original_duty_person, 耗时: 0.065秒
+2025-09-24 14:55:49 - oncall - INFO - 开始执行函数: src.services.excel_handler.get_bug_assignment_person
+2025-09-24 14:55:49 - oncall.excel_handler - INFO - 开始获取禅道指派人员，测试数据: 2025-09-18
+2025-09-24 14:55:49 - oncall.excel_handler - INFO - ✅ 禅道指派人员计算完成: 张笑笑 (索引: 0, 总人数: 2)
+2025-09-24 14:55:49 - oncall - INFO - 函数执行完成: src.services.excel_handler.get_bug_assignment_person, 耗时: 0.000秒
+2025-09-24 14:55:49 - oncall.app - INFO - 值班人员: 未找到, 禅道指派: 张笑笑
+2025-09-24 14:55:49 - oncall.app - INFO - 准备发送综合通知，内容：【OnCall】
+日期：2025-09-18
+禅道指派：张笑笑
+2025-09-24 14:55:50 - oncall.app - INFO - ✅ [进程25774] 已发送2025-09-18综合工作安排通知
+2025-09-24 14:55:50 - oncall - INFO - 完成: 发送综合工作安排通知, 耗时: 0.230秒
+2025-09-24 14:55:50 - oncall - INFO - 函数执行完成: __main__.send_combined_notification, 耗时: 0.230秒
+2025-09-24 15:00:17 - oncall - INFO - 开始执行函数: __main__.send_combined_notification
+2025-09-24 15:00:17 - oncall.app - INFO - [进程25861] 开始发送综合通知 - 2025-09-24 15:00:17
+2025-09-24 15:00:17 - oncall - INFO - 开始: 发送综合工作安排通知
+2025-09-24 15:00:17 - oncall.app - INFO - 查询2025-09-18的工作安排
+2025-09-24 15:00:17 - oncall - INFO - 开始执行函数: src.services.excel_handler.get_original_duty_person
+2025-09-24 15:00:17 - oncall.excel_handler - INFO - 开始查询值班人员，测试数据: 2025-09-18
+2025-09-24 15:00:17 - oncall.excel_handler - INFO -  开始读取Excel文件
+2025-09-24 15:00:17 - oncall.excel_handler - INFO - ✅ Excel文件读取成功，共63行数据
+2025-09-24 15:00:17 - oncall.excel_handler - INFO - 🔍 查找日期 2025-09-18 的值班信息
+2025-09-24 15:00:17 - oncall.excel_handler - WARNING - ⚠️ 未在值班表中找到2025-09-18的值班记录，开始更新值班计划
+2025-09-24 15:00:17 - oncall - INFO - 开始: 更新值班计划表
+2025-09-24 15:00:17 - oncall - INFO - 开始执行函数: src.services.excel_handler.replace_dates
+2025-09-24 15:00:17 - oncall.excel_handler - INFO - 开始更新DataFrame日期，起始日期: 2025-09-18
+2025-09-24 15:00:17 - oncall.excel_handler - INFO - ✅ DataFrame日期更新完成，共更新63行
+2025-09-24 15:00:17 - oncall - INFO - 函数执行完成: src.services.excel_handler.replace_dates, 耗时: 0.002秒
+2025-09-24 15:00:17 - oncall.excel_handler - INFO - 💾 保存更新后的值班计划到: ./data/值班计划表.xlsx
+2025-09-24 15:00:17 - oncall.excel_handler - INFO - ✅ 值班计划已保存: ./data/值班计划表.xlsx
+2025-09-24 15:00:17 - oncall.excel_handler - ERROR - ❌ 发送Excel文件异常: cannot import name 'send_dingtalk_file' from 'src.services.dingtalk' (/Users/Wework/oncall /src/services/dingtalk.py)
+2025-09-24 15:00:17 - oncall.excel_handler - INFO -  重新读取更新后的文件
+2025-09-24 15:00:17 - oncall.excel_handler - INFO - 🔍 重新查找日期 2025-09-18 的值班信息
+2025-09-24 15:00:17 - oncall.excel_handler - INFO - ✅ 更新后找到值班人员: 武恒
+2025-09-24 15:00:17 - oncall - INFO - 完成: 更新值班计划表, 耗时: 0.016秒
+2025-09-24 15:00:17 - oncall - INFO - 函数执行完成: src.services.excel_handler.get_original_duty_person, 耗时: 0.087秒
+2025-09-24 15:00:17 - oncall - INFO - 开始执行函数: src.services.excel_handler.get_bug_assignment_person
+2025-09-24 15:00:17 - oncall.excel_handler - INFO - 开始获取禅道指派人员，测试数据: 2025-09-18
+2025-09-24 15:00:17 - oncall.excel_handler - INFO - ✅ 禅道指派人员计算完成: 张笑笑 (索引: 0, 总人数: 2)
+2025-09-24 15:00:17 - oncall - INFO - 函数执行完成: src.services.excel_handler.get_bug_assignment_person, 耗时: 0.000秒
+2025-09-24 15:00:17 - oncall.app - INFO - 值班人员: 武恒, 禅道指派: 张笑笑
+2025-09-24 15:00:17 - oncall.app - INFO - 准备发送综合通知，内容：【OnCall】
+日期：2025-09-18
+值班人：武恒
+禅道指派：张笑笑
+2025-09-24 15:00:17 - oncall.app - INFO - ✅ [进程25861] 已发送2025-09-18综合工作安排通知
+2025-09-24 15:00:17 - oncall - INFO - 完成: 发送综合工作安排通知, 耗时: 0.268秒
+2025-09-24 15:00:17 - oncall - INFO - 函数执行完成: __main__.send_combined_notification, 耗时: 0.268秒
+2025-09-24 15:00:25 - oncall - INFO - 开始执行函数: __main__.send_combined_notification
+2025-09-24 15:00:25 - oncall.app - INFO - [进程25869] 开始发送综合通知 - 2025-09-24 15:00:25
+2025-09-24 15:00:25 - oncall - INFO - 开始: 发送综合工作安排通知
+2025-09-24 15:00:25 - oncall.app - INFO - 查询2025-09-18的工作安排
+2025-09-24 15:00:25 - oncall - INFO - 开始执行函数: src.services.excel_handler.get_original_duty_person
+2025-09-24 15:00:25 - oncall.excel_handler - INFO - 开始查询值班人员，测试数据: 2025-09-18
+2025-09-24 15:00:25 - oncall.excel_handler - INFO -  开始读取Excel文件
+2025-09-24 15:00:25 - oncall.excel_handler - INFO - ✅ Excel文件读取成功，共63行数据
+2025-09-24 15:00:25 - oncall.excel_handler - INFO - 🔍 查找日期 2025-09-18 的值班信息
+2025-09-24 15:00:25 - oncall.excel_handler - INFO - ✅ 找到值班人员: 武恒
+2025-09-24 15:00:25 - oncall - INFO - 函数执行完成: src.services.excel_handler.get_original_duty_person, 耗时: 0.049秒
+2025-09-24 15:00:25 - oncall - INFO - 开始执行函数: src.services.excel_handler.get_bug_assignment_person
+2025-09-24 15:00:25 - oncall.excel_handler - INFO - 开始获取禅道指派人员，测试数据: 2025-09-18
+2025-09-24 15:00:25 - oncall.excel_handler - INFO - ✅ 禅道指派人员计算完成: 张笑笑 (索引: 0, 总人数: 2)
+2025-09-24 15:00:25 - oncall - INFO - 函数执行完成: src.services.excel_handler.get_bug_assignment_person, 耗时: 0.000秒
+2025-09-24 15:00:25 - oncall.app - INFO - 值班人员: 武恒, 禅道指派: 张笑笑
+2025-09-24 15:00:25 - oncall.app - INFO - 准备发送综合通知，内容：【OnCall】
+日期：2025-09-18
+值班人：武恒
+禅道指派：张笑笑
+2025-09-24 15:00:25 - oncall.app - INFO - ✅ [进程25869] 已发送2025-09-18综合工作安排通知
+2025-09-24 15:00:25 - oncall - INFO - 完成: 发送综合工作安排通知, 耗时: 0.235秒
+2025-09-24 15:00:25 - oncall - INFO - 函数执行完成: __main__.send_combined_notification, 耗时: 0.235秒
+2025-09-24 15:00:32 - oncall - INFO - 开始执行函数: __main__.send_combined_notification
+2025-09-24 15:00:32 - oncall.app - INFO - [进程25875] 开始发送综合通知 - 2025-09-24 15:00:32
+2025-09-24 15:00:32 - oncall - INFO - 开始: 发送综合工作安排通知
+2025-09-24 15:00:32 - oncall.app - INFO - 查询2025-09-17的工作安排
+2025-09-24 15:00:32 - oncall - INFO - 开始执行函数: src.services.excel_handler.get_original_duty_person
+2025-09-24 15:00:32 - oncall.excel_handler - INFO - 开始查询值班人员，测试数据: 2025-09-17
+2025-09-24 15:00:32 - oncall.excel_handler - INFO -  开始读取Excel文件
+2025-09-24 15:00:32 - oncall.excel_handler - INFO - ✅ Excel文件读取成功，共63行数据
+2025-09-24 15:00:32 - oncall.excel_handler - INFO - 🔍 查找日期 2025-09-17 的值班信息
+2025-09-24 15:00:32 - oncall.excel_handler - WARNING - ⚠️ 未在值班表中找到2025-09-17的值班记录，开始更新值班计划
+2025-09-24 15:00:32 - oncall - INFO - 开始: 更新值班计划表
+2025-09-24 15:00:32 - oncall - INFO - 开始执行函数: src.services.excel_handler.replace_dates
+2025-09-24 15:00:32 - oncall.excel_handler - INFO - 开始更新DataFrame日期，起始日期: 2025-09-17
+2025-09-24 15:00:32 - oncall.excel_handler - INFO - ✅ DataFrame日期更新完成，共更新63行
+2025-09-24 15:00:32 - oncall - INFO - 函数执行完成: src.services.excel_handler.replace_dates, 耗时: 0.002秒
+2025-09-24 15:00:32 - oncall.excel_handler - INFO - 💾 保存更新后的值班计划到: ./data/值班计划表.xlsx
+2025-09-24 15:00:32 - oncall.excel_handler - INFO - ✅ 值班计划已保存: ./data/值班计划表.xlsx
+2025-09-24 15:00:32 - oncall.excel_handler - ERROR - ❌ 发送Excel文件异常: cannot import name 'send_dingtalk_file' from 'src.services.dingtalk' (/Users/Wework/oncall /src/services/dingtalk.py)
+2025-09-24 15:00:32 - oncall.excel_handler - INFO -  重新读取更新后的文件
+2025-09-24 15:00:32 - oncall.excel_handler - INFO - 🔍 重新查找日期 2025-09-17 的值班信息
+2025-09-24 15:00:32 - oncall.excel_handler - INFO - ✅ 更新后找到值班人员: 武恒
+2025-09-24 15:00:32 - oncall - INFO - 完成: 更新值班计划表, 耗时: 0.016秒
+2025-09-24 15:00:32 - oncall - INFO - 函数执行完成: src.services.excel_handler.get_original_duty_person, 耗时: 0.065秒
+2025-09-24 15:00:32 - oncall - INFO - 开始执行函数: src.services.excel_handler.get_bug_assignment_person
+2025-09-24 15:00:32 - oncall.excel_handler - INFO - 开始获取禅道指派人员，测试数据: 2025-09-17
+2025-09-24 15:00:32 - oncall.excel_handler - INFO - ✅ 禅道指派人员计算完成: 马刘磊 (索引: 1, 总人数: 2)
+2025-09-24 15:00:32 - oncall - INFO - 函数执行完成: src.services.excel_handler.get_bug_assignment_person, 耗时: 0.000秒
+2025-09-24 15:00:32 - oncall.app - INFO - 值班人员: 武恒, 禅道指派: 马刘磊
+2025-09-24 15:00:32 - oncall.app - INFO - 准备发送综合通知，内容：【OnCall】
+日期：2025-09-17
+值班人：武恒
+禅道指派：马刘磊
+2025-09-24 15:00:32 - oncall.app - INFO - ✅ [进程25875] 已发送2025-09-17综合工作安排通知
+2025-09-24 15:00:32 - oncall - INFO - 完成: 发送综合工作安排通知, 耗时: 0.251秒
+2025-09-24 15:00:32 - oncall - INFO - 函数执行完成: __main__.send_combined_notification, 耗时: 0.251秒
+2025-09-24 15:00:38 - oncall - INFO - 开始执行函数: __main__.send_combined_notification
+2025-09-24 15:00:38 - oncall.app - INFO - [进程25884] 开始发送综合通知 - 2025-09-24 15:00:38
+2025-09-24 15:00:38 - oncall - INFO - 开始: 发送综合工作安排通知
+2025-09-24 15:00:38 - oncall.app - INFO - 查询2025-09-18的工作安排
+2025-09-24 15:00:38 - oncall - INFO - 开始执行函数: src.services.excel_handler.get_original_duty_person
+2025-09-24 15:00:38 - oncall.excel_handler - INFO - 开始查询值班人员，测试数据: 2025-09-18
+2025-09-24 15:00:38 - oncall.excel_handler - INFO -  开始读取Excel文件
+2025-09-24 15:00:38 - oncall.excel_handler - INFO - ✅ Excel文件读取成功，共63行数据
+2025-09-24 15:00:38 - oncall.excel_handler - INFO - 🔍 查找日期 2025-09-18 的值班信息
+2025-09-24 15:00:38 - oncall.excel_handler - INFO - ✅ 找到值班人员: 马刘磊
+2025-09-24 15:00:38 - oncall - INFO - 函数执行完成: src.services.excel_handler.get_original_duty_person, 耗时: 0.046秒
+2025-09-24 15:00:38 - oncall - INFO - 开始执行函数: src.services.excel_handler.get_bug_assignment_person
+2025-09-24 15:00:38 - oncall.excel_handler - INFO - 开始获取禅道指派人员，测试数据: 2025-09-18
+2025-09-24 15:00:38 - oncall.excel_handler - INFO - ✅ 禅道指派人员计算完成: 张笑笑 (索引: 0, 总人数: 2)
+2025-09-24 15:00:38 - oncall - INFO - 函数执行完成: src.services.excel_handler.get_bug_assignment_person, 耗时: 0.000秒
+2025-09-24 15:00:38 - oncall.app - INFO - 值班人员: 马刘磊, 禅道指派: 张笑笑
+2025-09-24 15:00:38 - oncall.app - INFO - 准备发送综合通知，内容：【OnCall】
+日期：2025-09-18
+值班人：马刘磊
+禅道指派：张笑笑
+2025-09-24 15:00:38 - oncall.app - INFO - ✅ [进程25884] 已发送2025-09-18综合工作安排通知
+2025-09-24 15:00:38 - oncall - INFO - 完成: 发送综合工作安排通知, 耗时: 0.215秒
+2025-09-24 15:00:38 - oncall - INFO - 函数执行完成: __main__.send_combined_notification, 耗时: 0.215秒
+2025-09-24 15:00:44 - oncall - INFO - 开始执行函数: __main__.send_combined_notification
+2025-09-24 15:00:44 - oncall.app - INFO - [进程25890] 开始发送综合通知 - 2025-09-24 15:00:44
+2025-09-24 15:00:44 - oncall - INFO - 开始: 发送综合工作安排通知
+2025-09-24 15:00:44 - oncall.app - INFO - 查询2025-09-19的工作安排
+2025-09-24 15:00:44 - oncall - INFO - 开始执行函数: src.services.excel_handler.get_original_duty_person
+2025-09-24 15:00:44 - oncall.excel_handler - INFO - 开始查询值班人员，测试数据: 2025-09-19
+2025-09-24 15:00:44 - oncall.excel_handler - INFO -  开始读取Excel文件
+2025-09-24 15:00:44 - oncall.excel_handler - INFO - ✅ Excel文件读取成功，共63行数据
+2025-09-24 15:00:44 - oncall.excel_handler - INFO - 🔍 查找日期 2025-09-19 的值班信息
+2025-09-24 15:00:44 - oncall.excel_handler - INFO - ✅ 找到值班人员: 代瑞林
+2025-09-24 15:00:44 - oncall - INFO - 函数执行完成: src.services.excel_handler.get_original_duty_person, 耗时: 0.047秒
+2025-09-24 15:00:44 - oncall - INFO - 开始执行函数: src.services.excel_handler.get_bug_assignment_person
+2025-09-24 15:00:44 - oncall.excel_handler - INFO - 开始获取禅道指派人员，测试数据: 2025-09-19
+2025-09-24 15:00:44 - oncall.excel_handler - INFO - ✅ 禅道指派人员计算完成: 马刘磊 (索引: 1, 总人数: 2)
+2025-09-24 15:00:44 - oncall - INFO - 函数执行完成: src.services.excel_handler.get_bug_assignment_person, 耗时: 0.000秒
+2025-09-24 15:00:44 - oncall.app - INFO - 值班人员: 代瑞林, 禅道指派: 马刘磊
+2025-09-24 15:00:44 - oncall.app - INFO - 准备发送综合通知，内容：【OnCall】
+日期：2025-09-19
+值班人：代瑞林
+禅道指派：马刘磊
+2025-09-24 15:00:44 - oncall.app - INFO - ✅ [进程25890] 已发送2025-09-19综合工作安排通知
+2025-09-24 15:00:44 - oncall - INFO - 完成: 发送综合工作安排通知, 耗时: 0.232秒
+2025-09-24 15:00:44 - oncall - INFO - 函数执行完成: __main__.send_combined_notification, 耗时: 0.232秒
+2025-09-24 15:19:24 - oncall.app - INFO - 🚀 === OnCall系统启动 ===
+2025-09-24 15:19:24 - oncall.app - INFO - 进程ID: 26110
+2025-09-24 15:19:24 - oncall.app - INFO - Flask配置: 0.0.0.0:5008, Debug: False
+2025-09-24 15:19:24 - oncall - INFO - 开始: 创建Flask应用
+2025-09-24 15:19:24 - oncall.app - INFO - Flask应用创建成功
+2025-09-24 15:19:24 - oncall - INFO - 完成: 创建Flask应用, 耗时: 0.001秒
+2025-09-24 15:19:24 - oncall.app - INFO - 启动定时任务线程...
+2025-09-24 15:19:24 - oncall.app - INFO - [进程26110] 启动定时任务调度器
+2025-09-24 15:19:24 - oncall.app - INFO - 定时任务线程启动成功
+2025-09-24 15:19:24 - oncall.app - INFO - [进程26110] 已清除所有现有定时任务
+2025-09-24 15:19:24 - oncall.app - INFO - ✅ 应用启动成功，监听端口 5008
+2025-09-24 15:19:24 - oncall.app - INFO - �� 定时任务配置完成:
+2025-09-24 15:19:24 - oncall.app - INFO - 系统已就绪，等待请求...
+2025-09-24 15:19:24 - oncall.app - INFO -   - 08:30 发送禅道指派通知
+2025-09-24 15:19:24 - oncall.app - INFO -   - 17:20 发送综合工作安排通知
+2025-09-24 15:19:24 - oncall.app - INFO - 开始运行调度器...
+2025-09-24 15:19:29 - oncall.api - INFO - 收到钉钉Webhook请求 - IP: 59.82.21.1, 方法: POST
+2025-09-24 15:19:29 - oncall.api - INFO - 收到钉钉消息数据: {"senderPlatform": "Mac", "conversationId": "cidOIyoZ+iSH+Xd2kGDkQan6w==", "atUsers": [{"dingtalkId": "$:LWCP_v1:$HhnnADi8UMdBFqp6nbN7W78EuoB+3P15"}], "chatbotCorpId": "dingb8740e62bcc6ba1e24f2f5cc6abecb85", "chatbotUserId": "$:LWCP_v1:$HhnnADi8UMdBFqp6nbN7W78EuoB+3P15", "openThreadId": "cidOIyoZ+iSH+Xd2kGDkQan6w==", "msgId": "msgfAamXb9cDoPaQ20Ypsb13Q==", "senderNick": "ㅤ饿了么~", "isAdmin": true, "senderStaffId": "163008641524410432", "sessionWebhookExpiredTime": 1758703769429, "createAt": 1758698369185, "senderCorpId": "dingb8740e62bcc6ba1e24f2f5cc6abecb85", "conversationType": "2", "senderId": "$:LWCP_v1:$rl/VMptM8EA9i9hP3kBukQ==", "conversationTitle": "测试小群", "isInAtList": true, "sessionWebhook": "https://oapi.dingtalk.com/robot/sendBySession?session=dabc3ef23375f29d725544035ac79540", "text": {"content": " 获取群ID"}, "robotCode": "dingeekmytdfqs3qy8sn", "msgtype": "text"}
+2025-09-24 15:19:29 - oncall.api - INFO - 收到文本消息: 获取群ID
+2025-09-24 15:19:29 - oncall.api - INFO - 未匹配到关键词，返回默认回复
+2025-09-24 15:19:32 - oncall.app - INFO - 👋 OnCall系统已关闭
+2025-09-24 15:20:55 - oncall - INFO - 开始执行函数: __main__.send_bug_assignment_notification
+2025-09-24 15:20:55 - oncall.app - INFO - 发送每日禅道指派人员通知
+2025-09-24 15:20:55 - oncall - INFO - 开始: 发送禅道指派通知
+2025-09-24 15:20:55 - oncall.app - INFO - 发送日期：2025-09-24
+2025-09-24 15:20:55 - oncall - INFO - 开始执行函数: src.services.excel_handler.get_bug_assignment_person
+2025-09-24 15:20:55 - oncall.excel_handler - INFO - 开始获取禅道指派人员，测试数据: 2025-09-24
+2025-09-24 15:20:55 - oncall.excel_handler - INFO - ✅ 禅道指派人员计算完成: 张笑笑 (索引: 0, 总人数: 2)
+2025-09-24 15:20:55 - oncall - INFO - 函数执行完成: src.services.excel_handler.get_bug_assignment_person, 耗时: 0.000秒
+2025-09-24 15:20:55 - oncall.app - INFO - 准备发送钉钉通知，内容：【今日禅道指派】
+日期：2025-09-24
+指派人员：张笑笑
+2025-09-24 15:20:55 - oncall.app - INFO - ✅ 已发送2025-09-24禅道指派通知给张笑笑
+2025-09-24 15:20:55 - oncall - INFO - 完成: 发送禅道指派通知, 耗时: 0.185秒
+2025-09-24 15:20:55 - oncall - INFO - 函数执行完成: __main__.send_bug_assignment_notification, 耗时: 0.185秒
+2025-09-24 15:21:39 - oncall - INFO - 开始执行函数: __main__.send_combined_notification
+2025-09-24 15:21:39 - oncall.app - INFO - [进程26166] 开始发送综合通知 - 2025-09-24 15:21:39
+2025-09-24 15:21:39 - oncall - INFO - 开始: 发送综合工作安排通知
+2025-09-24 15:21:39 - oncall.app - INFO - 查询2025-09-16的工作安排
+2025-09-24 15:21:39 - oncall - INFO - 开始执行函数: src.services.excel_handler.get_original_duty_person
+2025-09-24 15:21:39 - oncall.excel_handler - INFO - 开始查询值班人员，测试数据: 2025-09-16
+2025-09-24 15:21:39 - oncall.excel_handler - INFO -  开始读取Excel文件
+2025-09-24 15:21:39 - oncall.excel_handler - INFO - ✅ Excel文件读取成功，共63行数据
+2025-09-24 15:21:39 - oncall.excel_handler - INFO - 🔍 查找日期 2025-09-16 的值班信息
+2025-09-24 15:21:39 - oncall.excel_handler - WARNING - ⚠️ 未在值班表中找到2025-09-16的值班记录，开始更新值班计划
+2025-09-24 15:21:39 - oncall - INFO - 开始: 更新值班计划表
+2025-09-24 15:21:39 - oncall - INFO - 开始执行函数: src.services.excel_handler.replace_dates
+2025-09-24 15:21:39 - oncall.excel_handler - INFO - 开始更新DataFrame日期，起始日期: 2025-09-16
+2025-09-24 15:21:39 - oncall.excel_handler - INFO - ✅ DataFrame日期更新完成，共更新63行
+2025-09-24 15:21:39 - oncall - INFO - 函数执行完成: src.services.excel_handler.replace_dates, 耗时: 0.002秒
+2025-09-24 15:21:39 - oncall.excel_handler - INFO - 💾 保存更新后的值班计划到: ./data/值班计划表.xlsx
+2025-09-24 15:21:39 - oncall.excel_handler - INFO - ✅ 值班计划已保存: ./data/值班计划表.xlsx
+2025-09-24 15:21:39 - oncall.excel_handler - INFO - 📤 开始发送Excel文件到钉钉群: ./data/值班计划表.xlsx
+2025-09-24 15:21:40 - oncall.excel_handler - ERROR - ❌ Excel文件发送失败: {'errcode': 40016, 'errmsg': '不合法的会话ID'}
+2025-09-24 15:21:40 - oncall.excel_handler - INFO -  重新读取更新后的文件
+2025-09-24 15:21:40 - oncall.excel_handler - INFO - 🔍 重新查找日期 2025-09-16 的值班信息
+2025-09-24 15:21:40 - oncall.excel_handler - INFO - ✅ 更新后找到值班人员: 武恒
+2025-09-24 15:21:40 - oncall - INFO - 完成: 更新值班计划表, 耗时: 0.660秒
+2025-09-24 15:21:40 - oncall - INFO - 函数执行完成: src.services.excel_handler.get_original_duty_person, 耗时: 0.729秒
+2025-09-24 15:21:40 - oncall - INFO - 开始执行函数: src.services.excel_handler.get_bug_assignment_person
+2025-09-24 15:21:40 - oncall.excel_handler - INFO - 开始获取禅道指派人员，测试数据: 2025-09-16
+2025-09-24 15:21:40 - oncall.excel_handler - INFO - ✅ 禅道指派人员计算完成: 张笑笑 (索引: 0, 总人数: 2)
+2025-09-24 15:21:40 - oncall - INFO - 函数执行完成: src.services.excel_handler.get_bug_assignment_person, 耗时: 0.000秒
+2025-09-24 15:21:40 - oncall.app - INFO - 值班人员: 武恒, 禅道指派: 张笑笑
+2025-09-24 15:21:40 - oncall.app - INFO - 准备发送综合通知，内容：【OnCall】
+日期：2025-09-16
+值班人：武恒
+禅道指派：张笑笑
+2025-09-24 15:21:40 - oncall.app - INFO - ✅ [进程26166] 已发送2025-09-16综合工作安排通知
+2025-09-24 15:21:40 - oncall - INFO - 完成: 发送综合工作安排通知, 耗时: 0.889秒
+2025-09-24 15:21:40 - oncall - INFO - 函数执行完成: __main__.send_combined_notification, 耗时: 0.889秒
+2025-09-24 15:22:59 - oncall - INFO - 开始执行函数: __main__.send_combined_notification
+2025-09-24 15:22:59 - oncall.app - INFO - [进程26187] 开始发送综合通知 - 2025-09-24 15:22:59
+2025-09-24 15:22:59 - oncall - INFO - 开始: 发送综合工作安排通知
+2025-09-24 15:22:59 - oncall.app - INFO - 查询2025-09-16的工作安排
+2025-09-24 15:22:59 - oncall - INFO - 开始执行函数: src.services.excel_handler.get_original_duty_person
+2025-09-24 15:22:59 - oncall.excel_handler - INFO - 开始查询值班人员，测试数据: 2025-09-16
+2025-09-24 15:22:59 - oncall.excel_handler - INFO -  开始读取Excel文件
+2025-09-24 15:22:59 - oncall.excel_handler - INFO - ✅ Excel文件读取成功，共63行数据
+2025-09-24 15:22:59 - oncall.excel_handler - INFO - 🔍 查找日期 2025-09-16 的值班信息
+2025-09-24 15:22:59 - oncall.excel_handler - INFO - ✅ 找到值班人员: 武恒
+2025-09-24 15:22:59 - oncall - INFO - 函数执行完成: src.services.excel_handler.get_original_duty_person, 耗时: 0.048秒
+2025-09-24 15:22:59 - oncall - INFO - 开始执行函数: src.services.excel_handler.get_bug_assignment_person
+2025-09-24 15:22:59 - oncall.excel_handler - INFO - 开始获取禅道指派人员，测试数据: 2025-09-16
+2025-09-24 15:22:59 - oncall.excel_handler - INFO - ✅ 禅道指派人员计算完成: 张笑笑 (索引: 0, 总人数: 2)
+2025-09-24 15:22:59 - oncall - INFO - 函数执行完成: src.services.excel_handler.get_bug_assignment_person, 耗时: 0.000秒
+2025-09-24 15:22:59 - oncall.app - INFO - 值班人员: 武恒, 禅道指派: 张笑笑
+2025-09-24 15:22:59 - oncall.app - INFO - 准备发送综合通知，内容：【OnCall】
+日期：2025-09-16
+值班人：武恒
+禅道指派：张笑笑
+2025-09-24 15:22:59 - oncall.app - INFO - ✅ [进程26187] 已发送2025-09-16综合工作安排通知
+2025-09-24 15:22:59 - oncall - INFO - 完成: 发送综合工作安排通知, 耗时: 0.262秒
+2025-09-24 15:22:59 - oncall - INFO - 函数执行完成: __main__.send_combined_notification, 耗时: 0.262秒
+2025-09-24 15:23:09 - oncall - INFO - 开始执行函数: __main__.send_combined_notification
+2025-09-24 15:23:09 - oncall.app - INFO - [进程26195] 开始发送综合通知 - 2025-09-24 15:23:09
+2025-09-24 15:23:09 - oncall - INFO - 开始: 发送综合工作安排通知
+2025-09-24 15:23:09 - oncall.app - INFO - 查询2025-09-15的工作安排
+2025-09-24 15:23:09 - oncall - INFO - 开始执行函数: src.services.excel_handler.get_original_duty_person
+2025-09-24 15:23:09 - oncall.excel_handler - INFO - 开始查询值班人员，测试数据: 2025-09-15
+2025-09-24 15:23:09 - oncall.excel_handler - INFO -  开始读取Excel文件
+2025-09-24 15:23:09 - oncall.excel_handler - INFO - ✅ Excel文件读取成功，共63行数据
+2025-09-24 15:23:09 - oncall.excel_handler - INFO - 🔍 查找日期 2025-09-15 的值班信息
+2025-09-24 15:23:09 - oncall.excel_handler - WARNING - ⚠️ 未在值班表中找到2025-09-15的值班记录，开始更新值班计划
+2025-09-24 15:23:09 - oncall - INFO - 开始: 更新值班计划表
+2025-09-24 15:23:09 - oncall - INFO - 开始执行函数: src.services.excel_handler.replace_dates
+2025-09-24 15:23:09 - oncall.excel_handler - INFO - 开始更新DataFrame日期，起始日期: 2025-09-15
+2025-09-24 15:23:09 - oncall.excel_handler - INFO - ✅ DataFrame日期更新完成，共更新63行
+2025-09-24 15:23:09 - oncall - INFO - 函数执行完成: src.services.excel_handler.replace_dates, 耗时: 0.001秒
+2025-09-24 15:23:09 - oncall.excel_handler - INFO - 💾 保存更新后的值班计划到: ./data/值班计划表.xlsx
+2025-09-24 15:23:09 - oncall.excel_handler - INFO - ✅ 值班计划已保存: ./data/值班计划表.xlsx
+2025-09-24 15:23:09 - oncall.excel_handler - INFO - 📤 开始发送Excel文件到钉钉群: ./data/值班计划表.xlsx
+2025-09-24 15:23:10 - oncall.excel_handler - ERROR - ❌ Excel文件发送失败: {'errcode': 40016, 'errmsg': '不合法的会话ID'}
+2025-09-24 15:23:10 - oncall.excel_handler - INFO -  重新读取更新后的文件
+2025-09-24 15:23:10 - oncall.excel_handler - INFO - 🔍 重新查找日期 2025-09-15 的值班信息
+2025-09-24 15:23:10 - oncall.excel_handler - INFO - ✅ 更新后找到值班人员: 武恒
+2025-09-24 15:23:10 - oncall - INFO - 完成: 更新值班计划表, 耗时: 0.959秒
+2025-09-24 15:23:10 - oncall - INFO - 函数执行完成: src.services.excel_handler.get_original_duty_person, 耗时: 1.008秒
+2025-09-24 15:23:10 - oncall - INFO - 开始执行函数: src.services.excel_handler.get_bug_assignment_person
+2025-09-24 15:23:10 - oncall.excel_handler - INFO - 开始获取禅道指派人员，测试数据: 2025-09-15
+2025-09-24 15:23:10 - oncall.excel_handler - INFO - ✅ 禅道指派人员计算完成: 马刘磊 (索引: 1, 总人数: 2)
+2025-09-24 15:23:10 - oncall - INFO - 函数执行完成: src.services.excel_handler.get_bug_assignment_person, 耗时: 0.000秒
+2025-09-24 15:23:10 - oncall.app - INFO - 值班人员: 武恒, 禅道指派: 马刘磊
+2025-09-24 15:23:10 - oncall.app - INFO - 准备发送综合通知，内容：【OnCall】
+日期：2025-09-15
+值班人：武恒
+禅道指派：马刘磊
+2025-09-24 15:23:10 - oncall.app - INFO - ✅ [进程26195] 已发送2025-09-15综合工作安排通知
+2025-09-24 15:23:10 - oncall - INFO - 完成: 发送综合工作安排通知, 耗时: 1.175秒
+2025-09-24 15:23:10 - oncall - INFO - 函数执行完成: __main__.send_combined_notification, 耗时: 1.175秒
+2025-09-24 15:23:55 - oncall.app - INFO - 🚀 === OnCall系统启动 ===
+2025-09-24 15:23:55 - oncall.app - INFO - 进程ID: 26217
+2025-09-24 15:23:55 - oncall.app - INFO - Flask配置: 0.0.0.0:5008, Debug: False
+2025-09-24 15:23:55 - oncall - INFO - 开始: 创建Flask应用
+2025-09-24 15:23:55 - oncall.app - INFO - Flask应用创建成功
+2025-09-24 15:23:55 - oncall - INFO - 完成: 创建Flask应用, 耗时: 0.001秒
+2025-09-24 15:23:55 - oncall.app - INFO - 启动定时任务线程...
+2025-09-24 15:23:55 - oncall.app - INFO - [进程26217] 启动定时任务调度器
+2025-09-24 15:23:55 - oncall.app - INFO - 定时任务线程启动成功
+2025-09-24 15:23:55 - oncall.app - INFO - ✅ 应用启动成功，监听端口 5008
+2025-09-24 15:23:55 - oncall.app - INFO - 系统已就绪，等待请求...
+2025-09-24 15:23:55 - oncall.app - INFO - [进程26217] 已清除所有现有定时任务
+2025-09-24 15:23:55 - oncall.app - INFO - �� 定时任务配置完成:
+2025-09-24 15:23:55 - oncall.app - INFO -   - 08:30 发送禅道指派通知
+2025-09-24 15:23:55 - oncall.app - INFO -   - 17:20 发送综合工作安排通知
+2025-09-24 15:23:55 - oncall.app - INFO - 开始运行调度器...
+2025-09-24 15:24:10 - oncall.api - INFO - 收到钉钉Webhook请求 - IP: 59.82.83.200, 方法: POST
+2025-09-24 15:24:10 - oncall.api - INFO - 收到钉钉消息数据: {"senderPlatform": "Mac", "conversationId": "cidOIyoZ+iSH+Xd2kGDkQan6w==", "atUsers": [{"dingtalkId": "$:LWCP_v1:$HhnnADi8UMdBFqp6nbN7W78EuoB+3P15"}], "chatbotCorpId": "dingb8740e62bcc6ba1e24f2f5cc6abecb85", "chatbotUserId": "$:LWCP_v1:$HhnnADi8UMdBFqp6nbN7W78EuoB+3P15", "openThreadId": "cidOIyoZ+iSH+Xd2kGDkQan6w==", "msgId": "msgqqY5EAX7p9xRyTLGC1nwMw==", "senderNick": "ㅤ饿了么~", "isAdmin": true, "senderStaffId": "163008641524410432", "sessionWebhookExpiredTime": 1758704050833, "createAt": 1758698650534, "senderCorpId": "dingb8740e62bcc6ba1e24f2f5cc6abecb85", "conversationType": "2", "senderId": "$:LWCP_v1:$rl/VMptM8EA9i9hP3kBukQ==", "conversationTitle": "测试小群", "isInAtList": true, "sessionWebhook": "https://oapi.dingtalk.com/robot/sendBySession?session=dabc3ef23375f29d725544035ac79540", "text": {"content": " 值班"}, "robotCode": "dingeekmytdfqs3qy8sn", "msgtype": "text"}
+2025-09-24 15:24:10 - oncall.api - INFO - 收到文本消息: 值班
+2025-09-24 15:24:10 - oncall.api - INFO - 匹配到关键词，开始处理
+2025-09-24 15:24:10 - oncall - INFO - 开始执行函数: src.services.excel_handler.get_original_duty_person
+2025-09-24 15:24:10 - oncall.excel_handler - INFO - 开始查询值班人员，测试数据: 2025-09-24
+2025-09-24 15:24:10 - oncall.excel_handler - INFO -  开始读取Excel文件
+2025-09-24 15:24:10 - oncall.excel_handler - INFO - ✅ Excel文件读取成功，共63行数据
+2025-09-24 15:24:10 - oncall.excel_handler - INFO - 🔍 查找日期 2025-09-24 的值班信息
+2025-09-24 15:24:10 - oncall.excel_handler - INFO - ✅ 找到值班人员: 武恒
+2025-09-24 15:24:10 - oncall - INFO - 函数执行完成: src.services.excel_handler.get_original_duty_person, 耗时: 0.088秒
+2025-09-24 15:24:10 - oncall - INFO - 开始执行函数: src.services.excel_handler.get_bug_assignment_person
+2025-09-24 15:24:10 - oncall.excel_handler - INFO - 开始获取禅道指派人员，测试数据: 2025-09-24
+2025-09-24 15:24:10 - oncall.excel_handler - INFO - ✅ 禅道指派人员计算完成: 张笑笑 (索引: 0, 总人数: 2)
+2025-09-24 15:24:10 - oncall - INFO - 函数执行完成: src.services.excel_handler.get_bug_assignment_person, 耗时: 0.000秒
+2025-09-24 15:24:10 - oncall.api - INFO - 查询结果 - 值班人: 武恒, 禅道指派: 张笑笑
+2025-09-24 15:24:10 - oncall.api - INFO - 准备回复内容: 📅 2025-09-24 工作安排：
+🔧 值班人：武恒
+🐛 禅道指派：张笑笑
+2025-09-24 15:24:33 - oncall.app - INFO - 👋 OnCall系统已关闭
+2025-09-24 15:24:34 - oncall - INFO - 开始执行函数: __main__.send_combined_notification
+2025-09-24 15:24:34 - oncall.app - INFO - [进程26255] 开始发送综合通知 - 2025-09-24 15:24:34
+2025-09-24 15:24:34 - oncall - INFO - 开始: 发送综合工作安排通知
+2025-09-24 15:24:34 - oncall.app - INFO - 查询2025-09-14的工作安排
+2025-09-24 15:24:34 - oncall - INFO - 开始执行函数: src.services.excel_handler.get_original_duty_person
+2025-09-24 15:24:34 - oncall.excel_handler - INFO - 开始查询值班人员，测试数据: 2025-09-14
+2025-09-24 15:24:34 - oncall.excel_handler - INFO -  开始读取Excel文件
+2025-09-24 15:24:34 - oncall.excel_handler - INFO - ✅ Excel文件读取成功，共63行数据
+2025-09-24 15:24:34 - oncall.excel_handler - INFO - 🔍 查找日期 2025-09-14 的值班信息
+2025-09-24 15:24:34 - oncall.excel_handler - WARNING - ⚠️ 未在值班表中找到2025-09-14的值班记录，开始更新值班计划
+2025-09-24 15:24:34 - oncall - INFO - 开始: 更新值班计划表
+2025-09-24 15:24:34 - oncall - INFO - 开始执行函数: src.services.excel_handler.replace_dates
+2025-09-24 15:24:34 - oncall.excel_handler - INFO - 开始更新DataFrame日期，起始日期: 2025-09-14
+2025-09-24 15:24:34 - oncall.excel_handler - INFO - ✅ DataFrame日期更新完成，共更新63行
+2025-09-24 15:24:34 - oncall - INFO - 函数执行完成: src.services.excel_handler.replace_dates, 耗时: 0.001秒
+2025-09-24 15:24:34 - oncall.excel_handler - INFO - 💾 保存更新后的值班计划到: ./data/值班计划表.xlsx
+2025-09-24 15:24:34 - oncall.excel_handler - INFO - ✅ 值班计划已保存: ./data/值班计划表.xlsx
+2025-09-24 15:24:34 - oncall.excel_handler - ERROR - ❌ 发送Excel文件异常: cannot import name 'send_dingtalk_file' from 'src.services.dingtalk' (/Users/Wework/oncall /src/services/dingtalk.py)
+2025-09-24 15:24:34 - oncall.excel_handler - INFO -  重新读取更新后的文件
+2025-09-24 15:24:34 - oncall.excel_handler - INFO - 🔍 重新查找日期 2025-09-14 的值班信息
+2025-09-24 15:24:34 - oncall.excel_handler - INFO - ✅ 更新后找到值班人员: 武恒
+2025-09-24 15:24:34 - oncall - INFO - 完成: 更新值班计划表, 耗时: 0.017秒
+2025-09-24 15:24:34 - oncall - INFO - 函数执行完成: src.services.excel_handler.get_original_duty_person, 耗时: 0.066秒
+2025-09-24 15:24:34 - oncall - INFO - 开始执行函数: src.services.excel_handler.get_bug_assignment_person
+2025-09-24 15:24:34 - oncall.excel_handler - INFO - 开始获取禅道指派人员，测试数据: 2025-09-14
+2025-09-24 15:24:34 - oncall.excel_handler - INFO - ✅ 禅道指派人员计算完成: 张笑笑 (索引: 0, 总人数: 2)
+2025-09-24 15:24:34 - oncall - INFO - 函数执行完成: src.services.excel_handler.get_bug_assignment_person, 耗时: 0.000秒
+2025-09-24 15:24:34 - oncall.app - INFO - 值班人员: 武恒, 禅道指派: 张笑笑
+2025-09-24 15:24:34 - oncall.app - INFO - 准备发送综合通知，内容：【OnCall】
+日期：2025-09-14
+值班人：武恒
+禅道指派：张笑笑
+2025-09-24 15:24:35 - oncall.app - INFO - ✅ [进程26255] 已发送2025-09-14综合工作安排通知
+2025-09-24 15:24:35 - oncall - INFO - 完成: 发送综合工作安排通知, 耗时: 0.288秒
+2025-09-24 15:24:35 - oncall - INFO - 函数执行完成: __main__.send_combined_notification, 耗时: 0.288秒
+2025-09-24 15:24:55 - oncall - INFO - 开始执行函数: __main__.send_combined_notification
+2025-09-24 15:24:55 - oncall.app - INFO - [进程26274] 开始发送综合通知 - 2025-09-24 15:24:55
+2025-09-24 15:24:55 - oncall - INFO - 开始: 发送综合工作安排通知
+2025-09-24 15:24:55 - oncall.app - INFO - 查询2025-09-14的工作安排
+2025-09-24 15:24:55 - oncall - INFO - 开始执行函数: src.services.excel_handler.get_original_duty_person
+2025-09-24 15:24:55 - oncall.excel_handler - INFO - 开始查询值班人员，测试数据: 2025-09-14
+2025-09-24 15:24:55 - oncall.excel_handler - INFO - �� 开始读取Excel文件
+2025-09-24 15:24:55 - oncall.excel_handler - INFO - ✅ Excel文件读取成功，共63行数据
+2025-09-24 15:24:55 - oncall.excel_handler - INFO - 🔍 查找日期 2025-09-14 的值班信息
+2025-09-24 15:24:55 - oncall.excel_handler - INFO - ✅ 找到值班人员: 武恒
+2025-09-24 15:24:55 - oncall - INFO - 函数执行完成: src.services.excel_handler.get_original_duty_person, 耗时: 0.048秒
+2025-09-24 15:24:55 - oncall - INFO - 开始执行函数: src.services.excel_handler.get_bug_assignment_person
+2025-09-24 15:24:55 - oncall.excel_handler - INFO - 开始获取禅道指派人员，测试数据: 2025-09-14
+2025-09-24 15:24:55 - oncall.excel_handler - INFO - ✅ 禅道指派人员计算完成: 张笑笑 (索引: 0, 总人数: 2)
+2025-09-24 15:24:55 - oncall - INFO - 函数执行完成: src.services.excel_handler.get_bug_assignment_person, 耗时: 0.000秒
+2025-09-24 15:24:55 - oncall.app - INFO - 值班人员: 武恒, 禅道指派: 张笑笑
+2025-09-24 15:24:55 - oncall.app - INFO - 准备发送综合通知，内容：【OnCall】
+日期：2025-09-14
+值班人：武恒
+禅道指派：张笑笑
+2025-09-24 15:24:55 - oncall.app - INFO - ✅ [进程26274] 已发送2025-09-14综合工作安排通知
+2025-09-24 15:24:55 - oncall - INFO - 完成: 发送综合工作安排通知, 耗时: 0.223秒
+2025-09-24 15:24:55 - oncall - INFO - 函数执行完成: __main__.send_combined_notification, 耗时: 0.223秒
+2025-09-24 15:25:01 - oncall - INFO - 开始执行函数: __main__.send_combined_notification
+2025-09-24 15:25:01 - oncall.app - INFO - [进程26285] 开始发送综合通知 - 2025-09-24 15:25:01
+2025-09-24 15:25:01 - oncall - INFO - 开始: 发送综合工作安排通知
+2025-09-24 15:25:01 - oncall.app - INFO - 查询2025-09-13的工作安排
+2025-09-24 15:25:01 - oncall - INFO - 开始执行函数: src.services.excel_handler.get_original_duty_person
+2025-09-24 15:25:01 - oncall.excel_handler - INFO - 开始查询值班人员，测试数据: 2025-09-13
+2025-09-24 15:25:01 - oncall.excel_handler - INFO - �� 开始读取Excel文件
+2025-09-24 15:25:01 - oncall.excel_handler - INFO - ✅ Excel文件读取成功，共63行数据
+2025-09-24 15:25:01 - oncall.excel_handler - INFO - 🔍 查找日期 2025-09-13 的值班信息
+2025-09-24 15:25:01 - oncall.excel_handler - WARNING - ⚠️ 未在值班表中找到2025-09-13的值班记录，开始更新值班计划
+2025-09-24 15:25:01 - oncall - INFO - 开始: 更新值班计划表
+2025-09-24 15:25:01 - oncall - INFO - 开始执行函数: src.services.excel_handler.replace_dates
+2025-09-24 15:25:01 - oncall.excel_handler - INFO - 开始更新DataFrame日期，起始日期: 2025-09-13
+2025-09-24 15:25:01 - oncall.excel_handler - INFO - ✅ DataFrame日期更新完成，共更新63行
+2025-09-24 15:25:01 - oncall - INFO - 函数执行完成: src.services.excel_handler.replace_dates, 耗时: 0.001秒
+2025-09-24 15:25:01 - oncall.excel_handler - INFO - 💾 保存更新后的值班计划到: 值班计划表.xlsx
+2025-09-24 15:25:01 - oncall.excel_handler - INFO - ✅ 值班计划已保存: 值班计划表.xlsx
+2025-09-24 15:25:01 - oncall.excel_handler - INFO - �� 重新读取更新后的文件
+2025-09-24 15:25:01 - oncall.excel_handler - INFO - 🔍 重新查找日期 2025-09-13 的值班信息
+2025-09-24 15:25:01 - oncall.excel_handler - ERROR - ❌ 更新后仍未找到2025-09-13的值班信息
+2025-09-24 15:25:01 - oncall - INFO - 完成: 更新值班计划表, 耗时: 0.016秒
+2025-09-24 15:25:01 - oncall - INFO - 函数执行完成: src.services.excel_handler.get_original_duty_person, 耗时: 0.065秒
+2025-09-24 15:25:01 - oncall - INFO - 开始执行函数: src.services.excel_handler.get_bug_assignment_person
+2025-09-24 15:25:01 - oncall.excel_handler - INFO - 开始获取禅道指派人员，测试数据: 2025-09-13
+2025-09-24 15:25:01 - oncall.excel_handler - INFO - ✅ 禅道指派人员计算完成: 马刘磊 (索引: 1, 总人数: 2)
+2025-09-24 15:25:01 - oncall - INFO - 函数执行完成: src.services.excel_handler.get_bug_assignment_person, 耗时: 0.000秒
+2025-09-24 15:25:01 - oncall.app - INFO - 值班人员: 未找到, 禅道指派: 马刘磊
+2025-09-24 15:25:01 - oncall.app - INFO - 准备发送综合通知，内容：【OnCall】
+日期：2025-09-13
+禅道指派：马刘磊
+2025-09-24 15:25:01 - oncall.app - INFO - ✅ [进程26285] 已发送2025-09-13综合工作安排通知
+2025-09-24 15:25:01 - oncall - INFO - 完成: 发送综合工作安排通知, 耗时: 0.243秒
+2025-09-24 15:25:01 - oncall - INFO - 函数执行完成: __main__.send_combined_notification, 耗时: 0.244秒
+2025-09-24 15:25:22 - oncall - INFO - 开始执行函数: __main__.send_combined_notification
+2025-09-24 15:25:22 - oncall.app - INFO - [进程26303] 开始发送综合通知 - 2025-09-24 15:25:22
+2025-09-24 15:25:22 - oncall - INFO - 开始: 发送综合工作安排通知
+2025-09-24 15:25:22 - oncall.app - INFO - 查询2025-09-13的工作安排
+2025-09-24 15:25:22 - oncall - INFO - 开始执行函数: src.services.excel_handler.get_original_duty_person
+2025-09-24 15:25:22 - oncall.excel_handler - INFO - 开始查询值班人员，测试数据: 2025-09-13
+2025-09-24 15:25:22 - oncall.excel_handler - INFO -  开始读取Excel文件
+2025-09-24 15:25:22 - oncall.excel_handler - INFO - ✅ Excel文件读取成功，共63行数据
+2025-09-24 15:25:22 - oncall.excel_handler - INFO - 🔍 查找日期 2025-09-13 的值班信息
+2025-09-24 15:25:22 - oncall.excel_handler - WARNING - ⚠️ 未在值班表中找到2025-09-13的值班记录，开始更新值班计划
+2025-09-24 15:25:22 - oncall - INFO - 开始: 更新值班计划表
+2025-09-24 15:25:22 - oncall - INFO - 开始执行函数: src.services.excel_handler.replace_dates
+2025-09-24 15:25:22 - oncall.excel_handler - INFO - 开始更新DataFrame日期，起始日期: 2025-09-13
+2025-09-24 15:25:22 - oncall.excel_handler - INFO - ✅ DataFrame日期更新完成，共更新63行
+2025-09-24 15:25:22 - oncall - INFO - 函数执行完成: src.services.excel_handler.replace_dates, 耗时: 0.001秒
+2025-09-24 15:25:22 - oncall.excel_handler - INFO - 💾 保存更新后的值班计划到: ./data/值班计划表.xlsx
+2025-09-24 15:25:22 - oncall.excel_handler - INFO - ✅ 值班计划已保存: ./data/值班计划表.xlsx
+2025-09-24 15:25:22 - oncall.excel_handler - ERROR - ❌ 发送Excel文件异常: cannot import name 'send_dingtalk_file' from 'src.services.dingtalk' (/Users/Wework/oncall /src/services/dingtalk.py)
+2025-09-24 15:25:22 - oncall.excel_handler - INFO -  重新读取更新后的文件
+2025-09-24 15:25:22 - oncall.excel_handler - INFO - 🔍 重新查找日期 2025-09-13 的值班信息
+2025-09-24 15:25:22 - oncall.excel_handler - INFO - ✅ 更新后找到值班人员: 武恒
+2025-09-24 15:25:22 - oncall - INFO - 完成: 更新值班计划表, 耗时: 0.015秒
+2025-09-24 15:25:22 - oncall - INFO - 函数执行完成: src.services.excel_handler.get_original_duty_person, 耗时: 0.063秒
+2025-09-24 15:25:22 - oncall - INFO - 开始执行函数: src.services.excel_handler.get_bug_assignment_person
+2025-09-24 15:25:22 - oncall.excel_handler - INFO - 开始获取禅道指派人员，测试数据: 2025-09-13
+2025-09-24 15:25:22 - oncall.excel_handler - INFO - ✅ 禅道指派人员计算完成: 马刘磊 (索引: 1, 总人数: 2)
+2025-09-24 15:25:22 - oncall - INFO - 函数执行完成: src.services.excel_handler.get_bug_assignment_person, 耗时: 0.000秒
+2025-09-24 15:25:22 - oncall.app - INFO - 值班人员: 武恒, 禅道指派: 马刘磊
+2025-09-24 15:25:22 - oncall.app - INFO - 准备发送综合通知，内容：【OnCall】
+日期：2025-09-13
+值班人：武恒
+禅道指派：马刘磊
+2025-09-24 15:25:22 - oncall.app - INFO - ✅ [进程26303] 已发送2025-09-13综合工作安排通知
+2025-09-24 15:25:22 - oncall - INFO - 完成: 发送综合工作安排通知, 耗时: 0.257秒
+2025-09-24 15:25:22 - oncall - INFO - 函数执行完成: __main__.send_combined_notification, 耗时: 0.257秒
+2025-09-24 15:25:43 - oncall - INFO - 开始执行函数: __main__.send_combined_notification
+2025-09-24 15:25:43 - oncall.app - INFO - [进程26312] 开始发送综合通知 - 2025-09-24 15:25:43
+2025-09-24 15:25:43 - oncall - INFO - 开始: 发送综合工作安排通知
+2025-09-24 15:25:43 - oncall.app - INFO - 查询2025-09-13的工作安排
+2025-09-24 15:25:43 - oncall - INFO - 开始执行函数: src.services.excel_handler.get_original_duty_person
+2025-09-24 15:25:43 - oncall.excel_handler - INFO - 开始查询值班人员，测试数据: 2025-09-13
+2025-09-24 15:25:43 - oncall.excel_handler - INFO -  开始读取Excel文件
+2025-09-24 15:25:43 - oncall.excel_handler - INFO - ✅ Excel文件读取成功，共63行数据
+2025-09-24 15:25:43 - oncall.excel_handler - INFO - 🔍 查找日期 2025-09-13 的值班信息
+2025-09-24 15:25:43 - oncall.excel_handler - INFO - ✅ 找到值班人员: 武恒
+2025-09-24 15:25:43 - oncall - INFO - 函数执行完成: src.services.excel_handler.get_original_duty_person, 耗时: 0.049秒
+2025-09-24 15:25:43 - oncall - INFO - 开始执行函数: src.services.excel_handler.get_bug_assignment_person
+2025-09-24 15:25:43 - oncall.excel_handler - INFO - 开始获取禅道指派人员，测试数据: 2025-09-13
+2025-09-24 15:25:43 - oncall.excel_handler - INFO - ✅ 禅道指派人员计算完成: 马刘磊 (索引: 1, 总人数: 2)
+2025-09-24 15:25:43 - oncall - INFO - 函数执行完成: src.services.excel_handler.get_bug_assignment_person, 耗时: 0.000秒
+2025-09-24 15:25:43 - oncall.app - INFO - 值班人员: 武恒, 禅道指派: 马刘磊
+2025-09-24 15:25:43 - oncall.app - INFO - 准备发送综合通知，内容：【OnCall】
+日期：2025-09-13
+值班人：武恒
+禅道指派：马刘磊
+2025-09-24 15:25:43 - oncall.app - INFO - ✅ [进程26312] 已发送2025-09-13综合工作安排通知
+2025-09-24 15:25:43 - oncall - INFO - 完成: 发送综合工作安排通知, 耗时: 0.221秒
+2025-09-24 15:25:43 - oncall - INFO - 函数执行完成: __main__.send_combined_notification, 耗时: 0.222秒
+2025-09-24 15:25:50 - oncall - INFO - 开始执行函数: __main__.send_combined_notification
+2025-09-24 15:25:50 - oncall.app - INFO - [进程26321] 开始发送综合通知 - 2025-09-24 15:25:50
+2025-09-24 15:25:50 - oncall - INFO - 开始: 发送综合工作安排通知
+2025-09-24 15:25:50 - oncall.app - INFO - 查询2025-09-12的工作安排
+2025-09-24 15:25:50 - oncall - INFO - 开始执行函数: src.services.excel_handler.get_original_duty_person
+2025-09-24 15:25:50 - oncall.excel_handler - INFO - 开始查询值班人员，测试数据: 2025-09-12
+2025-09-24 15:25:50 - oncall.excel_handler - INFO -  开始读取Excel文件
+2025-09-24 15:25:50 - oncall.excel_handler - INFO - ✅ Excel文件读取成功，共63行数据
+2025-09-24 15:25:50 - oncall.excel_handler - INFO - 🔍 查找日期 2025-09-12 的值班信息
+2025-09-24 15:25:50 - oncall.excel_handler - WARNING - ⚠️ 未在值班表中找到2025-09-12的值班记录，开始更新值班计划
+2025-09-24 15:25:50 - oncall - INFO - 开始: 更新值班计划表
+2025-09-24 15:25:50 - oncall - INFO - 开始执行函数: src.services.excel_handler.replace_dates
+2025-09-24 15:25:50 - oncall.excel_handler - INFO - 开始更新DataFrame日期，起始日期: 2025-09-12
+2025-09-24 15:25:50 - oncall.excel_handler - INFO - ✅ DataFrame日期更新完成，共更新63行
+2025-09-24 15:25:50 - oncall - INFO - 函数执行完成: src.services.excel_handler.replace_dates, 耗时: 0.004秒
+2025-09-24 15:25:50 - oncall.excel_handler - INFO - 💾 保存更新后的值班计划到: ./data/值班计划表.xlsx
+2025-09-24 15:25:50 - oncall.excel_handler - INFO - ✅ 值班计划已保存: ./data/值班计划表.xlsx
+2025-09-24 15:25:50 - oncall.excel_handler - ERROR - ❌ 发送Excel文件异常: cannot import name 'send_dingtalk_file' from 'src.services.dingtalk' (/Users/Wework/oncall /src/services/dingtalk.py)
+2025-09-24 15:25:50 - oncall.excel_handler - INFO -  重新读取更新后的文件
+2025-09-24 15:25:50 - oncall.excel_handler - INFO - 🔍 重新查找日期 2025-09-12 的值班信息
+2025-09-24 15:25:50 - oncall.excel_handler - INFO - ✅ 更新后找到值班人员: 武恒
+2025-09-24 15:25:50 - oncall - INFO - 完成: 更新值班计划表, 耗时: 0.039秒
+2025-09-24 15:25:50 - oncall - INFO - 函数执行完成: src.services.excel_handler.get_original_duty_person, 耗时: 0.157秒
+2025-09-24 15:25:50 - oncall - INFO - 开始执行函数: src.services.excel_handler.get_bug_assignment_person
+2025-09-24 15:25:50 - oncall.excel_handler - INFO - 开始获取禅道指派人员，测试数据: 2025-09-12
+2025-09-24 15:25:50 - oncall.excel_handler - INFO - ✅ 禅道指派人员计算完成: 张笑笑 (索引: 0, 总人数: 2)
+2025-09-24 15:25:50 - oncall - INFO - 函数执行完成: src.services.excel_handler.get_bug_assignment_person, 耗时: 0.000秒
+2025-09-24 15:25:50 - oncall.app - INFO - 值班人员: 武恒, 禅道指派: 张笑笑
+2025-09-24 15:25:50 - oncall.app - INFO - 准备发送综合通知，内容：【OnCall】
+日期：2025-09-12
+值班人：武恒
+禅道指派：张笑笑
+2025-09-24 15:25:51 - oncall.app - INFO - ✅ [进程26321] 已发送2025-09-12综合工作安排通知
+2025-09-24 15:25:51 - oncall - INFO - 完成: 发送综合工作安排通知, 耗时: 0.336秒
+2025-09-24 15:25:51 - oncall - INFO - 函数执行完成: __main__.send_combined_notification, 耗时: 0.336秒
+2025-09-24 15:25:53 - oncall - INFO - 开始执行函数: __main__.send_combined_notification
+2025-09-24 15:25:53 - oncall.app - INFO - [进程26326] 开始发送综合通知 - 2025-09-24 15:25:53
+2025-09-24 15:25:53 - oncall - INFO - 开始: 发送综合工作安排通知
+2025-09-24 15:25:53 - oncall.app - INFO - 查询2025-09-12的工作安排
+2025-09-24 15:25:53 - oncall - INFO - 开始执行函数: src.services.excel_handler.get_original_duty_person
+2025-09-24 15:25:53 - oncall.excel_handler - INFO - 开始查询值班人员，测试数据: 2025-09-12
+2025-09-24 15:25:53 - oncall.excel_handler - INFO -  开始读取Excel文件
+2025-09-24 15:25:53 - oncall.excel_handler - INFO - ✅ Excel文件读取成功，共63行数据
+2025-09-24 15:25:53 - oncall.excel_handler - INFO - 🔍 查找日期 2025-09-12 的值班信息
+2025-09-24 15:25:53 - oncall.excel_handler - INFO - ✅ 找到值班人员: 武恒
+2025-09-24 15:25:53 - oncall - INFO - 函数执行完成: src.services.excel_handler.get_original_duty_person, 耗时: 0.048秒
+2025-09-24 15:25:53 - oncall - INFO - 开始执行函数: src.services.excel_handler.get_bug_assignment_person
+2025-09-24 15:25:53 - oncall.excel_handler - INFO - 开始获取禅道指派人员，测试数据: 2025-09-12
+2025-09-24 15:25:53 - oncall.excel_handler - INFO - ✅ 禅道指派人员计算完成: 张笑笑 (索引: 0, 总人数: 2)
+2025-09-24 15:25:53 - oncall - INFO - 函数执行完成: src.services.excel_handler.get_bug_assignment_person, 耗时: 0.000秒
+2025-09-24 15:25:53 - oncall.app - INFO - 值班人员: 武恒, 禅道指派: 张笑笑
+2025-09-24 15:25:53 - oncall.app - INFO - 准备发送综合通知，内容：【OnCall】
+日期：2025-09-12
+值班人：武恒
+禅道指派：张笑笑
+2025-09-24 15:25:53 - oncall.app - INFO - ✅ [进程26326] 已发送2025-09-12综合工作安排通知
+2025-09-24 15:25:53 - oncall - INFO - 完成: 发送综合工作安排通知, 耗时: 0.209秒
+2025-09-24 15:25:53 - oncall - INFO - 函数执行完成: __main__.send_combined_notification, 耗时: 0.209秒
+2025-09-24 15:25:57 - oncall - INFO - 开始执行函数: __main__.send_combined_notification
+2025-09-24 15:25:57 - oncall.app - INFO - [进程26331] 开始发送综合通知 - 2025-09-24 15:25:57
+2025-09-24 15:25:57 - oncall - INFO - 开始: 发送综合工作安排通知
+2025-09-24 15:25:57 - oncall.app - INFO - 查询2025-09-11的工作安排
+2025-09-24 15:25:57 - oncall - INFO - 开始执行函数: src.services.excel_handler.get_original_duty_person
+2025-09-24 15:25:57 - oncall.excel_handler - INFO - 开始查询值班人员，测试数据: 2025-09-11
+2025-09-24 15:25:57 - oncall.excel_handler - INFO -  开始读取Excel文件
+2025-09-24 15:25:57 - oncall.excel_handler - INFO - ✅ Excel文件读取成功，共63行数据
+2025-09-24 15:25:57 - oncall.excel_handler - INFO - 🔍 查找日期 2025-09-11 的值班信息
+2025-09-24 15:25:57 - oncall.excel_handler - WARNING - ⚠️ 未在值班表中找到2025-09-11的值班记录，开始更新值班计划
+2025-09-24 15:25:57 - oncall - INFO - 开始: 更新值班计划表
+2025-09-24 15:25:57 - oncall - INFO - 开始执行函数: src.services.excel_handler.replace_dates
+2025-09-24 15:25:57 - oncall.excel_handler - INFO - 开始更新DataFrame日期，起始日期: 2025-09-11
+2025-09-24 15:25:57 - oncall.excel_handler - INFO - ✅ DataFrame日期更新完成，共更新63行
+2025-09-24 15:25:57 - oncall - INFO - 函数执行完成: src.services.excel_handler.replace_dates, 耗时: 0.002秒
+2025-09-24 15:25:57 - oncall.excel_handler - INFO - 💾 保存更新后的值班计划到: ./data/值班计划表.xlsx
+2025-09-24 15:25:57 - oncall.excel_handler - INFO - ✅ 值班计划已保存: ./data/值班计划表.xlsx
+2025-09-24 15:25:57 - oncall.excel_handler - ERROR - ❌ 发送Excel文件异常: cannot import name 'send_dingtalk_file' from 'src.services.dingtalk' (/Users/Wework/oncall /src/services/dingtalk.py)
+2025-09-24 15:25:57 - oncall.excel_handler - INFO -  重新读取更新后的文件
+2025-09-24 15:25:57 - oncall.excel_handler - INFO - 🔍 重新查找日期 2025-09-11 的值班信息
+2025-09-24 15:25:57 - oncall.excel_handler - INFO - ✅ 更新后找到值班人员: 武恒
+2025-09-24 15:25:57 - oncall - INFO - 完成: 更新值班计划表, 耗时: 0.016秒
+2025-09-24 15:25:57 - oncall - INFO - 函数执行完成: src.services.excel_handler.get_original_duty_person, 耗时: 0.065秒
+2025-09-24 15:25:57 - oncall - INFO - 开始执行函数: src.services.excel_handler.get_bug_assignment_person
+2025-09-24 15:25:57 - oncall.excel_handler - INFO - 开始获取禅道指派人员，测试数据: 2025-09-11
+2025-09-24 15:25:57 - oncall.excel_handler - INFO - ✅ 禅道指派人员计算完成: 马刘磊 (索引: 1, 总人数: 2)
+2025-09-24 15:25:57 - oncall - INFO - 函数执行完成: src.services.excel_handler.get_bug_assignment_person, 耗时: 0.000秒
+2025-09-24 15:25:57 - oncall.app - INFO - 值班人员: 武恒, 禅道指派: 马刘磊
+2025-09-24 15:25:57 - oncall.app - INFO - 准备发送综合通知，内容：【OnCall】
+日期：2025-09-11
+值班人：武恒
+禅道指派：马刘磊
+2025-09-24 15:25:58 - oncall.app - INFO - ✅ [进程26331] 已发送2025-09-11综合工作安排通知
+2025-09-24 15:25:58 - oncall - INFO - 完成: 发送综合工作安排通知, 耗时: 0.244秒
+2025-09-24 15:25:58 - oncall - INFO - 函数执行完成: __main__.send_combined_notification, 耗时: 0.244秒
+2025-09-24 15:26:42 - oncall - INFO - 开始执行函数: __main__.send_combined_notification
+2025-09-24 15:26:42 - oncall.app - INFO - [进程26344] 开始发送综合通知 - 2025-09-24 15:26:42
+2025-09-24 15:26:42 - oncall - INFO - 开始: 发送综合工作安排通知
+2025-09-24 15:26:42 - oncall.app - INFO - 查询2025-09-11的工作安排
+2025-09-24 15:26:42 - oncall - INFO - 开始执行函数: src.services.excel_handler.get_original_duty_person
+2025-09-24 15:26:42 - oncall.excel_handler - INFO - 开始查询值班人员，测试数据: 2025-09-11
+2025-09-24 15:26:42 - oncall.excel_handler - INFO -  开始读取Excel文件
+2025-09-24 15:26:42 - oncall.excel_handler - INFO - ✅ Excel文件读取成功，共63行数据
+2025-09-24 15:26:42 - oncall.excel_handler - INFO - 🔍 查找日期 2025-09-11 的值班信息
+2025-09-24 15:26:42 - oncall.excel_handler - INFO - ✅ 找到值班人员: 武恒
+2025-09-24 15:26:42 - oncall - INFO - 函数执行完成: src.services.excel_handler.get_original_duty_person, 耗时: 0.047秒
+2025-09-24 15:26:42 - oncall - INFO - 开始执行函数: src.services.excel_handler.get_bug_assignment_person
+2025-09-24 15:26:42 - oncall.excel_handler - INFO - 开始获取禅道指派人员，测试数据: 2025-09-11
+2025-09-24 15:26:42 - oncall.excel_handler - INFO - ✅ 禅道指派人员计算完成: 马刘磊 (索引: 1, 总人数: 2)
+2025-09-24 15:26:42 - oncall - INFO - 函数执行完成: src.services.excel_handler.get_bug_assignment_person, 耗时: 0.000秒
+2025-09-24 15:26:42 - oncall.app - INFO - 值班人员: 武恒, 禅道指派: 马刘磊
+2025-09-24 15:26:42 - oncall.app - INFO - 准备发送综合通知，内容：【OnCall】
+日期：2025-09-11
+值班人：武恒
+禅道指派：马刘磊
+2025-09-24 15:26:42 - oncall.app - INFO - ✅ [进程26344] 已发送2025-09-11综合工作安排通知
+2025-09-24 15:26:42 - oncall - INFO - 完成: 发送综合工作安排通知, 耗时: 0.229秒
+2025-09-24 15:26:42 - oncall - INFO - 函数执行完成: __main__.send_combined_notification, 耗时: 0.229秒
+2025-09-24 15:26:50 - oncall - INFO - 开始执行函数: __main__.send_combined_notification
+2025-09-24 15:26:50 - oncall.app - INFO - [进程26353] 开始发送综合通知 - 2025-09-24 15:26:50
+2025-09-24 15:26:50 - oncall - INFO - 开始: 发送综合工作安排通知
+2025-09-24 15:26:50 - oncall.app - INFO - 查询2025-09-10的工作安排
+2025-09-24 15:26:50 - oncall - INFO - 开始执行函数: src.services.excel_handler.get_original_duty_person
+2025-09-24 15:26:50 - oncall.excel_handler - INFO - 开始查询值班人员，测试数据: 2025-09-10
+2025-09-24 15:26:50 - oncall.excel_handler - INFO -  开始读取Excel文件
+2025-09-24 15:26:50 - oncall.excel_handler - INFO - ✅ Excel文件读取成功，共63行数据
+2025-09-24 15:26:50 - oncall.excel_handler - INFO - 🔍 查找日期 2025-09-10 的值班信息
+2025-09-24 15:26:50 - oncall.excel_handler - WARNING - ⚠️ 未在值班表中找到2025-09-10的值班记录，开始更新值班计划
+2025-09-24 15:26:50 - oncall - INFO - 开始: 更新值班计划表
+2025-09-24 15:26:50 - oncall - INFO - 开始执行函数: src.services.excel_handler.replace_dates
+2025-09-24 15:26:50 - oncall.excel_handler - INFO - 开始更新DataFrame日期，起始日期: 2025-09-10
+2025-09-24 15:26:50 - oncall.excel_handler - INFO - ✅ DataFrame日期更新完成，共更新63行
+2025-09-24 15:26:50 - oncall - INFO - 函数执行完成: src.services.excel_handler.replace_dates, 耗时: 0.001秒
+2025-09-24 15:26:50 - oncall.excel_handler - INFO - 💾 保存更新后的值班计划到: ./data/值班计划表.xlsx
+2025-09-24 15:26:50 - oncall.excel_handler - INFO - ✅ 值班计划已保存: ./data/值班计划表.xlsx
+2025-09-24 15:26:50 - oncall.excel_handler - INFO -  重新读取更新后的文件
+2025-09-24 15:26:50 - oncall.excel_handler - INFO - 🔍 重新查找日期 2025-09-10 的值班信息
+2025-09-24 15:26:50 - oncall.excel_handler - INFO - ✅ 更新后找到值班人员: 武恒
+2025-09-24 15:26:50 - oncall - INFO - 完成: 更新值班计划表, 耗时: 0.016秒
+2025-09-24 15:26:50 - oncall - INFO - 函数执行完成: src.services.excel_handler.get_original_duty_person, 耗时: 0.062秒
+2025-09-24 15:26:50 - oncall - INFO - 开始执行函数: src.services.excel_handler.get_bug_assignment_person
+2025-09-24 15:26:50 - oncall.excel_handler - INFO - 开始获取禅道指派人员，测试数据: 2025-09-10
+2025-09-24 15:26:50 - oncall.excel_handler - INFO - ✅ 禅道指派人员计算完成: 张笑笑 (索引: 0, 总人数: 2)
+2025-09-24 15:26:50 - oncall - INFO - 函数执行完成: src.services.excel_handler.get_bug_assignment_person, 耗时: 0.000秒
+2025-09-24 15:26:50 - oncall.app - INFO - 值班人员: 武恒, 禅道指派: 张笑笑
+2025-09-24 15:26:50 - oncall.app - INFO - 准备发送综合通知，内容：【OnCall】
+日期：2025-09-10
+值班人：武恒
+禅道指派：张笑笑
+2025-09-24 15:26:51 - oncall.app - INFO - ✅ [进程26353] 已发送2025-09-10综合工作安排通知
+2025-09-24 15:26:51 - oncall - INFO - 完成: 发送综合工作安排通知, 耗时: 0.244秒
+2025-09-24 15:26:51 - oncall - INFO - 函数执行完成: __main__.send_combined_notification, 耗时: 0.245秒
+2025-09-24 15:27:47 - oncall - INFO - 开始执行函数: __main__.send_combined_notification
+2025-09-24 15:27:47 - oncall.app - INFO - [进程26380] 开始发送综合通知 - 2025-09-24 15:27:47
+2025-09-24 15:27:47 - oncall - INFO - 开始: 发送综合工作安排通知
+2025-09-24 15:27:47 - oncall.app - INFO - 查询2025-11-12的工作安排
+2025-09-24 15:27:47 - oncall - INFO - 开始执行函数: src.services.excel_handler.get_original_duty_person
+2025-09-24 15:27:47 - oncall.excel_handler - INFO - 开始查询值班人员，测试数据: 2025-11-12
+2025-09-24 15:27:47 - oncall.excel_handler - INFO -  开始读取Excel文件
+2025-09-24 15:27:48 - oncall.excel_handler - INFO - ✅ Excel文件读取成功，共63行数据
+2025-09-24 15:27:48 - oncall.excel_handler - INFO - 🔍 查找日期 2025-11-12 的值班信息
+2025-09-24 15:27:48 - oncall.excel_handler - WARNING - ⚠️ 未在值班表中找到2025-11-12的值班记录，开始更新值班计划
+2025-09-24 15:27:48 - oncall - INFO - 开始: 更新值班计划表
+2025-09-24 15:27:48 - oncall - INFO - 开始执行函数: src.services.excel_handler.replace_dates
+2025-09-24 15:27:48 - oncall.excel_handler - INFO - 开始更新DataFrame日期，起始日期: 2025-11-12
+2025-09-24 15:27:48 - oncall.excel_handler - INFO - ✅ DataFrame日期更新完成，共更新63行
+2025-09-24 15:27:48 - oncall - INFO - 函数执行完成: src.services.excel_handler.replace_dates, 耗时: 0.002秒
+2025-09-24 15:27:48 - oncall.excel_handler - INFO - 💾 保存更新后的值班计划到: ./data/值班计划表.xlsx
+2025-09-24 15:27:48 - oncall.excel_handler - INFO - ✅ 值班计划已保存: ./data/值班计划表.xlsx
+2025-09-24 15:27:48 - oncall.excel_handler - INFO -  重新读取更新后的文件
+2025-09-24 15:27:48 - oncall.excel_handler - INFO - 🔍 重新查找日期 2025-11-12 的值班信息
+2025-09-24 15:27:48 - oncall.excel_handler - INFO - ✅ 更新后找到值班人员: 武恒
+2025-09-24 15:27:48 - oncall - INFO - 完成: 更新值班计划表, 耗时: 0.015秒
+2025-09-24 15:27:48 - oncall - INFO - 函数执行完成: src.services.excel_handler.get_original_duty_person, 耗时: 0.082秒
+2025-09-24 15:27:48 - oncall - INFO - 开始执行函数: src.services.excel_handler.get_bug_assignment_person
+2025-09-24 15:27:48 - oncall.excel_handler - INFO - 开始获取禅道指派人员，测试数据: 2025-11-12
+2025-09-24 15:27:48 - oncall.excel_handler - INFO - ✅ 禅道指派人员计算完成: 马刘磊 (索引: 1, 总人数: 2)
+2025-09-24 15:27:48 - oncall - INFO - 函数执行完成: src.services.excel_handler.get_bug_assignment_person, 耗时: 0.000秒
+2025-09-24 15:27:48 - oncall.app - INFO - 值班人员: 武恒, 禅道指派: 马刘磊
+2025-09-24 15:27:48 - oncall.app - INFO - 准备发送综合通知，内容：【OnCall】
+日期：2025-11-12
+值班人：武恒
+禅道指派：马刘磊
+2025-09-24 15:27:48 - oncall.app - INFO - ✅ [进程26380] 已发送2025-11-12综合工作安排通知
+2025-09-24 15:27:48 - oncall - INFO - 完成: 发送综合工作安排通知, 耗时: 0.252秒
+2025-09-24 15:27:48 - oncall - INFO - 函数执行完成: __main__.send_combined_notification, 耗时: 0.252秒
+2025-09-24 15:28:29 - oncall.app - INFO - 🚀 === OnCall系统启动 ===
+2025-09-24 15:28:29 - oncall.app - INFO - 进程ID: 26402
+2025-09-24 15:28:29 - oncall.app - INFO - Flask配置: 0.0.0.0:5008, Debug: False
+2025-09-24 15:28:29 - oncall - INFO - 开始: 创建Flask应用
+2025-09-24 15:28:29 - oncall.app - INFO - Flask应用创建成功
+2025-09-24 15:28:29 - oncall - INFO - 完成: 创建Flask应用, 耗时: 0.001秒
+2025-09-24 15:28:29 - oncall.app - INFO - 启动定时任务线程...
+2025-09-24 15:28:29 - oncall.app - INFO - [进程26402] 启动定时任务调度器
+2025-09-24 15:28:29 - oncall.app - INFO - 定时任务线程启动成功
+2025-09-24 15:28:29 - oncall.app - INFO - [进程26402] 已清除所有现有定时任务
+2025-09-24 15:28:29 - oncall.app - INFO - ✅ 应用启动成功，监听端口 5008
+2025-09-24 15:28:29 - oncall.app - INFO - �� 定时任务配置完成:
+2025-09-24 15:28:29 - oncall.app - INFO - 系统已就绪，等待请求...
+2025-09-24 15:28:29 - oncall.app - INFO -   - 08:30 发送禅道指派通知
+2025-09-24 15:28:29 - oncall.app - INFO -   - 17:20 发送综合工作安排通知
+2025-09-24 15:28:29 - oncall.app - INFO - 开始运行调度器...
+2025-09-24 15:28:40 - oncall.api - INFO - 收到钉钉Webhook请求 - IP: 59.82.135.131, 方法: POST
+2025-09-24 15:28:40 - oncall.api - INFO - 收到钉钉消息数据: {"senderPlatform": "Mac", "conversationId": "cidOIyoZ+iSH+Xd2kGDkQan6w==", "atUsers": [{"dingtalkId": "$:LWCP_v1:$HhnnADi8UMdBFqp6nbN7W78EuoB+3P15"}], "chatbotCorpId": "dingb8740e62bcc6ba1e24f2f5cc6abecb85", "chatbotUserId": "$:LWCP_v1:$HhnnADi8UMdBFqp6nbN7W78EuoB+3P15", "openThreadId": "cidOIyoZ+iSH+Xd2kGDkQan6w==", "msgId": "msgY87IOgl7z5KriiQw1NeBjA==", "senderNick": "ㅤ饿了么~", "isAdmin": true, "senderStaffId": "163008641524410432", "sessionWebhookExpiredTime": 1758704321046, "createAt": 1758698920784, "senderCorpId": "dingb8740e62bcc6ba1e24f2f5cc6abecb85", "conversationType": "2", "senderId": "$:LWCP_v1:$rl/VMptM8EA9i9hP3kBukQ==", "conversationTitle": "测试小群", "isInAtList": true, "sessionWebhook": "https://oapi.dingtalk.com/robot/sendBySession?session=dabc3ef23375f29d725544035ac79540", "text": {"content": "  值班"}, "robotCode": "dingeekmytdfqs3qy8sn", "msgtype": "text"}
+2025-09-24 15:28:40 - oncall.api - INFO - 收到文本消息: 值班
+2025-09-24 15:28:40 - oncall.api - INFO - 匹配到关键词，开始处理
+2025-09-24 15:28:40 - oncall - INFO - 开始执行函数: src.services.excel_handler.get_original_duty_person
+2025-09-24 15:28:40 - oncall.excel_handler - INFO - 开始查询值班人员，测试数据: 2025-09-24
+2025-09-24 15:28:40 - oncall.excel_handler - INFO -  开始读取Excel文件
+2025-09-24 15:28:41 - oncall.excel_handler - INFO - ✅ Excel文件读取成功，共63行数据
+2025-09-24 15:28:41 - oncall.excel_handler - INFO - 🔍 查找日期 2025-09-24 的值班信息
+2025-09-24 15:28:41 - oncall.excel_handler - WARNING - ⚠️ 未在值班表中找到2025-09-24的值班记录，开始更新值班计划
+2025-09-24 15:28:41 - oncall - INFO - 开始: 更新值班计划表
+2025-09-24 15:28:41 - oncall - INFO - 开始执行函数: src.services.excel_handler.replace_dates
+2025-09-24 15:28:41 - oncall.excel_handler - INFO - 开始更新DataFrame日期，起始日期: 2025-09-24
+2025-09-24 15:28:41 - oncall.excel_handler - INFO - ✅ DataFrame日期更新完成，共更新63行
+2025-09-24 15:28:41 - oncall - INFO - 函数执行完成: src.services.excel_handler.replace_dates, 耗时: 0.002秒
+2025-09-24 15:28:41 - oncall.excel_handler - INFO - 💾 保存更新后的值班计划到: ./data/值班计划表.xlsx
+2025-09-24 15:28:41 - oncall.excel_handler - INFO - ✅ 值班计划已保存: ./data/值班计划表.xlsx
+2025-09-24 15:28:41 - oncall.excel_handler - INFO -  重新读取更新后的文件
+2025-09-24 15:28:41 - oncall.excel_handler - INFO - 🔍 重新查找日期 2025-09-24 的值班信息
+2025-09-24 15:28:41 - oncall.excel_handler - INFO - ✅ 更新后找到值班人员: 武恒
+2025-09-24 15:28:41 - oncall - INFO - 完成: 更新值班计划表, 耗时: 0.016秒
+2025-09-24 15:28:41 - oncall - INFO - 函数执行完成: src.services.excel_handler.get_original_duty_person, 耗时: 0.111秒
+2025-09-24 15:28:41 - oncall - INFO - 开始执行函数: src.services.excel_handler.get_bug_assignment_person
+2025-09-24 15:28:41 - oncall.excel_handler - INFO - 开始获取禅道指派人员，测试数据: 2025-09-24
+2025-09-24 15:28:41 - oncall.excel_handler - INFO - ✅ 禅道指派人员计算完成: 张笑笑 (索引: 0, 总人数: 2)
+2025-09-24 15:28:41 - oncall - INFO - 函数执行完成: src.services.excel_handler.get_bug_assignment_person, 耗时: 0.000秒
+2025-09-24 15:28:41 - oncall.api - INFO - 查询结果 - 值班人: 武恒, 禅道指派: 张笑笑
+2025-09-24 15:28:41 - oncall.api - INFO - 准备回复内容: 📅 2025-09-24 工作安排：
+🔧 值班人：武恒
+🐛 禅道指派：张笑笑
+2025-09-24 15:29:11 - oncall.app - INFO - 👋 OnCall系统已关闭
+2025-09-24 15:29:12 - oncall.app - INFO - 🚀 === OnCall系统启动 ===
+2025-09-24 15:29:12 - oncall.app - INFO - 进程ID: 26458
+2025-09-24 15:29:12 - oncall.app - INFO - Flask配置: 0.0.0.0:5008, Debug: False
+2025-09-24 15:29:12 - oncall - INFO - 开始: 创建Flask应用
+2025-09-24 15:29:12 - oncall.app - INFO - Flask应用创建成功
+2025-09-24 15:29:12 - oncall - INFO - 完成: 创建Flask应用, 耗时: 0.001秒
+2025-09-24 15:29:12 - oncall.app - INFO - 启动定时任务线程...
+2025-09-24 15:29:12 - oncall.app - INFO - [进程26458] 启动定时任务调度器
+2025-09-24 15:29:12 - oncall.app - INFO - 定时任务线程启动成功
+2025-09-24 15:29:12 - oncall.app - INFO - [进程26458] 已清除所有现有定时任务
+2025-09-24 15:29:12 - oncall.app - INFO - ✅ 应用启动成功，监听端口 5008
+2025-09-24 15:29:12 - oncall.app - INFO - �� 定时任务配置完成:
+2025-09-24 15:29:12 - oncall.app - INFO - 系统已就绪，等待请求...
+2025-09-24 15:29:12 - oncall.app - INFO -   - 08:30 发送禅道指派通知
+2025-09-24 15:29:12 - oncall.app - INFO -   - 17:20 发送综合工作安排通知
+2025-09-24 15:29:12 - oncall.app - INFO - 开始运行调度器...
+2025-09-24 15:29:20 - oncall.api - INFO - 收到钉钉Webhook请求 - IP: 59.82.135.118, 方法: POST
+2025-09-24 15:29:20 - oncall.api - INFO - 收到钉钉消息数据: {"senderPlatform": "Mac", "conversationId": "cidOIyoZ+iSH+Xd2kGDkQan6w==", "atUsers": [{"dingtalkId": "$:LWCP_v1:$HhnnADi8UMdBFqp6nbN7W78EuoB+3P15"}], "chatbotCorpId": "dingb8740e62bcc6ba1e24f2f5cc6abecb85", "chatbotUserId": "$:LWCP_v1:$HhnnADi8UMdBFqp6nbN7W78EuoB+3P15", "openThreadId": "cidOIyoZ+iSH+Xd2kGDkQan6w==", "msgId": "msgYM2fMs34WYQ5CQxtkaAqaQ==", "senderNick": "ㅤ饿了么~", "isAdmin": true, "senderStaffId": "163008641524410432", "sessionWebhookExpiredTime": 1758704360611, "createAt": 1758698960423, "senderCorpId": "dingb8740e62bcc6ba1e24f2f5cc6abecb85", "conversationType": "2", "senderId": "$:LWCP_v1:$rl/VMptM8EA9i9hP3kBukQ==", "conversationTitle": "测试小群", "isInAtList": true, "sessionWebhook": "https://oapi.dingtalk.com/robot/sendBySession?session=dabc3ef23375f29d725544035ac79540", "text": {"content": "  值班"}, "robotCode": "dingeekmytdfqs3qy8sn", "msgtype": "text"}
+2025-09-24 15:29:20 - oncall.api - INFO - 收到文本消息: 值班
+2025-09-24 15:29:20 - oncall.api - INFO - 匹配到关键词，开始处理
+2025-09-24 15:29:20 - oncall - INFO - 开始执行函数: src.services.excel_handler.get_original_duty_person
+2025-09-24 15:29:20 - oncall.excel_handler - INFO - 开始查询值班人员，测试数据: 2025-09-24
+2025-09-24 15:29:20 - oncall.excel_handler - INFO -  开始读取Excel文件
+2025-09-24 15:29:20 - oncall.excel_handler - INFO - ✅ Excel文件读取成功，共63行数据
+2025-09-24 15:29:20 - oncall.excel_handler - INFO - 🔍 查找日期 2025-09-24 的值班信息
+2025-09-24 15:29:20 - oncall.excel_handler - INFO - ✅ 找到值班人员: 王朝霞
+2025-09-24 15:29:20 - oncall - INFO - 函数执行完成: src.services.excel_handler.get_original_duty_person, 耗时: 0.099秒
+2025-09-24 15:29:20 - oncall - INFO - 开始执行函数: src.services.excel_handler.get_bug_assignment_person
+2025-09-24 15:29:20 - oncall.excel_handler - INFO - 开始获取禅道指派人员，测试数据: 2025-09-24
+2025-09-24 15:29:20 - oncall.excel_handler - INFO - ✅ 禅道指派人员计算完成: 张笑笑 (索引: 0, 总人数: 2)
+2025-09-24 15:29:20 - oncall - INFO - 函数执行完成: src.services.excel_handler.get_bug_assignment_person, 耗时: 0.000秒
+2025-09-24 15:29:20 - oncall.api - INFO - 查询结果 - 值班人: 王朝霞, 禅道指派: 张笑笑
+2025-09-24 15:29:20 - oncall.api - INFO - 准备回复内容: 📅 2025-09-24 工作安排：
+🔧 值班人：王朝霞
+🐛 禅道指派：张笑笑
+2025-09-24 15:30:00 - oncall.app - INFO - 👋 OnCall系统已关闭
+2025-09-24 15:35:11 - oncall.app - INFO - 🚀 === OnCall系统启动 ===
+2025-09-24 15:35:11 - oncall.app - INFO - 进程ID: 26634
+2025-09-24 15:35:11 - oncall.app - INFO - Flask配置: 0.0.0.0:5008, Debug: False
+2025-09-24 15:35:11 - oncall - INFO - 开始: 创建Flask应用
+2025-09-24 15:35:11 - oncall.app - INFO - Flask应用创建成功
+2025-09-24 15:35:11 - oncall - INFO - 完成: 创建Flask应用, 耗时: 0.001秒
+2025-09-24 15:35:11 - oncall.app - INFO - 启动定时任务线程...
+2025-09-24 15:35:11 - oncall.app - INFO - [进程26634] 启动定时任务调度器
+2025-09-24 15:35:11 - oncall.app - INFO - 定时任务线程启动成功
+2025-09-24 15:35:11 - oncall.app - INFO - [进程26634] 已清除所有现有定时任务
+2025-09-24 15:35:11 - oncall.app - INFO - ✅ 应用启动成功，监听端口 5008
+2025-09-24 15:35:11 - oncall.app - INFO - �� 定时任务配置完成:
+2025-09-24 15:35:11 - oncall.app - INFO - 系统已就绪，等待请求...
+2025-09-24 15:35:11 - oncall.app - INFO -   - 08:30 发送禅道指派通知
+2025-09-24 15:35:11 - oncall.app - INFO -   - 17:20 发送综合工作安排通知
+2025-09-24 15:35:11 - oncall.app - INFO - 开始运行调度器...
+2025-09-24 15:35:49 - oncall.api - INFO - 收到下载值班计划表请求
+2025-09-24 15:35:49 - oncall.api - INFO - 准备下载文件: ./data/值班计划表.xlsx -> 值班计划表_20250924.xlsx
+2025-09-24 15:37:41 - oncall.api - INFO - 收到下载值班计划表请求
+2025-09-24 15:37:41 - oncall.api - INFO - 准备下载文件: ./data/值班计划表.xlsx -> 值班计划表_20250924.xlsx
+2025-09-24 15:38:12 - oncall.api - INFO - 收到下载值班计划表请求
+2025-09-24 15:38:12 - oncall.api - INFO - 准备下载文件: ./data/值班计划表.xlsx -> 值班计划表_20250924.xlsx
+2025-09-24 15:38:12 - oncall.api - INFO - 收到下载值班计划表请求
+2025-09-24 15:38:12 - oncall.api - INFO - 准备下载文件: ./data/值班计划表.xlsx -> 值班计划表_20250924.xlsx
+2025-09-24 15:38:18 - oncall.api - INFO - 收到下载值班计划表请求
+2025-09-24 15:38:18 - oncall.api - INFO - 准备下载文件: ./data/值班计划表.xlsx -> 值班计划表_20250924.xlsx
+2025-09-24 15:38:19 - oncall.api - INFO - 收到下载值班计划表请求
+2025-09-24 15:38:19 - oncall.api - INFO - 准备下载文件: ./data/值班计划表.xlsx -> 值班计划表_20250924.xlsx
+2025-09-24 15:38:38 - oncall.api - INFO - 收到下载值班计划表请求
+2025-09-24 15:38:38 - oncall.api - INFO - 准备下载文件: ./data/值班计划表.xlsx -> 值班计划表_20250924.xlsx
+2025-09-24 15:43:22 - oncall.api - INFO - 收到下载值班计划表请求
+2025-09-24 15:43:22 - oncall.api - INFO - 准备下载文件: ./data/值班计划表.xlsx -> 值班计划表_20250924.xlsx
+2025-09-24 15:43:54 - oncall.app - INFO - 👋 OnCall系统已关闭
+2025-09-24 15:45:08 - oncall.app - INFO - 🚀 === OnCall系统启动 ===
+2025-09-24 15:45:08 - oncall.app - INFO - 进程ID: 26885
+2025-09-24 15:45:08 - oncall.app - INFO - Flask配置: 0.0.0.0:5008, Debug: False
+2025-09-24 15:45:08 - oncall - INFO - 开始: 创建Flask应用
+2025-09-24 15:45:08 - oncall.app - INFO - Flask应用创建成功
+2025-09-24 15:45:08 - oncall - INFO - 完成: 创建Flask应用, 耗时: 0.001秒
+2025-09-24 15:45:08 - oncall.app - INFO - 启动定时任务线程...
+2025-09-24 15:45:08 - oncall.app - INFO - [进程26885] 启动定时任务调度器
+2025-09-24 15:45:08 - oncall.app - INFO - 定时任务线程启动成功
+2025-09-24 15:45:08 - oncall.app - INFO - [进程26885] 已清除所有现有定时任务
+2025-09-24 15:45:08 - oncall.app - INFO - ✅ 应用启动成功，监听端口 5008
+2025-09-24 15:45:08 - oncall.app - INFO - �� 定时任务配置完成:
+2025-09-24 15:45:08 - oncall.app - INFO - 系统已就绪，等待请求...
+2025-09-24 15:45:08 - oncall.app - INFO -   - 08:30 发送禅道指派通知
+2025-09-24 15:45:08 - oncall.app - INFO -   - 17:20 发送综合工作安排通知
+2025-09-24 15:45:08 - oncall.app - INFO - 开始运行调度器...
+2025-09-24 15:45:19 - oncall.api - INFO - 收到下载值班计划表请求
+2025-09-24 15:45:19 - oncall.api - INFO - 准备下载文件: ./data/值班计划表.xlsx -> 值班计划表_20250924.xlsx
+2025-09-24 15:45:58 - oncall.app - INFO - 👋 OnCall系统已关闭
+2025-09-24 15:46:01 - oncall - INFO - 开始执行函数: __main__.send_combined_notification
+2025-09-24 15:46:01 - oncall.app - INFO - [进程26958] 开始发送综合通知 - 2025-09-24 15:46:01
+2025-09-24 15:46:01 - oncall - INFO - 开始: 发送综合工作安排通知
+2025-09-24 15:46:01 - oncall.app - INFO - 查询2025-11-13的工作安排
+2025-09-24 15:46:01 - oncall - INFO - 开始执行函数: src.services.excel_handler.get_original_duty_person
+2025-09-24 15:46:01 - oncall.excel_handler - INFO - 开始查询值班人员，测试数据: 2025-11-13
+2025-09-24 15:46:01 - oncall.excel_handler - INFO -  开始读取Excel文件
+2025-09-24 15:46:01 - oncall.excel_handler - INFO - ✅ Excel文件读取成功，共63行数据
+2025-09-24 15:46:01 - oncall.excel_handler - INFO - 🔍 查找日期 2025-11-13 的值班信息
+2025-09-24 15:46:01 - oncall.excel_handler - INFO - ✅ 找到值班人员: 武恒
+2025-09-24 15:46:01 - oncall - INFO - 函数执行完成: src.services.excel_handler.get_original_duty_person, 耗时: 0.072秒
+2025-09-24 15:46:01 - oncall - INFO - 开始执行函数: src.services.excel_handler.get_bug_assignment_person
+2025-09-24 15:46:01 - oncall.excel_handler - INFO - 开始获取禅道指派人员，测试数据: 2025-11-13
+2025-09-24 15:46:01 - oncall.excel_handler - INFO - ✅ 禅道指派人员计算完成: 张笑笑 (索引: 0, 总人数: 2)
+2025-09-24 15:46:01 - oncall - INFO - 函数执行完成: src.services.excel_handler.get_bug_assignment_person, 耗时: 0.000秒
+2025-09-24 15:46:01 - oncall.app - INFO - 值班人员: 武恒, 禅道指派: 张笑笑
+2025-09-24 15:46:01 - oncall.app - INFO - 准备发送综合通知，内容：【OnCall】
+日期：2025-11-13
+值班人：武恒
+禅道指派：张笑笑
+2025-09-24 15:46:01 - oncall.app - INFO - ✅ [进程26958] 已发送2025-11-13综合工作安排通知
+2025-09-24 15:46:01 - oncall - INFO - 完成: 发送综合工作安排通知, 耗时: 0.340秒
+2025-09-24 15:46:01 - oncall - INFO - 函数执行完成: __main__.send_combined_notification, 耗时: 0.340秒
+2025-09-24 15:46:25 - oncall - INFO - 开始执行函数: __main__.send_combined_notification
+2025-09-24 15:46:25 - oncall.app - INFO - [进程26984] 开始发送综合通知 - 2025-09-24 15:46:25
+2025-09-24 15:46:25 - oncall - INFO - 开始: 发送综合工作安排通知
+2025-09-24 15:46:25 - oncall.app - INFO - 查询2025-09-19的工作安排
+2025-09-24 15:46:25 - oncall - INFO - 开始执行函数: src.services.excel_handler.get_original_duty_person
+2025-09-24 15:46:25 - oncall.excel_handler - INFO - 开始查询值班人员，测试数据: 2025-09-19
+2025-09-24 15:46:25 - oncall.excel_handler - INFO -  开始读取Excel文件
+2025-09-24 15:46:25 - oncall.excel_handler - INFO - ✅ Excel文件读取成功，共63行数据
+2025-09-24 15:46:25 - oncall.excel_handler - INFO - 🔍 查找日期 2025-09-19 的值班信息
+2025-09-24 15:46:25 - oncall.excel_handler - WARNING - ⚠️ 未在值班表中找到2025-09-19的值班记录，开始更新值班计划
+2025-09-24 15:46:25 - oncall - INFO - 开始: 更新值班计划表
+2025-09-24 15:46:25 - oncall - INFO - 开始执行函数: src.services.excel_handler.replace_dates
+2025-09-24 15:46:25 - oncall.excel_handler - INFO - 开始更新DataFrame日期，起始日期: 2025-09-19
+2025-09-24 15:46:25 - oncall.excel_handler - INFO - ✅ DataFrame日期更新完成，共更新63行
+2025-09-24 15:46:25 - oncall - INFO - 函数执行完成: src.services.excel_handler.replace_dates, 耗时: 0.002秒
+2025-09-24 15:46:25 - oncall.excel_handler - INFO - 💾 保存更新后的值班计划到: ./data/值班计划表.xlsx
+2025-09-24 15:46:25 - oncall.excel_handler - INFO - ✅ 值班计划已保存: ./data/值班计划表.xlsx
+2025-09-24 15:46:25 - oncall.excel_handler - INFO -  重新读取更新后的文件
+2025-09-24 15:46:25 - oncall.excel_handler - INFO - 🔍 重新查找日期 2025-09-19 的值班信息
+2025-09-24 15:46:25 - oncall.excel_handler - INFO - ✅ 更新后找到值班人员: 武恒
+2025-09-24 15:46:25 - oncall - INFO - 完成: 更新值班计划表, 耗时: 0.018秒
+2025-09-24 15:46:25 - oncall - INFO - 函数执行完成: src.services.excel_handler.get_original_duty_person, 耗时: 0.089秒
+2025-09-24 15:46:25 - oncall - INFO - 开始执行函数: src.services.excel_handler.get_bug_assignment_person
+2025-09-24 15:46:25 - oncall.excel_handler - INFO - 开始获取禅道指派人员，测试数据: 2025-09-19
+2025-09-24 15:46:25 - oncall.excel_handler - INFO - ✅ 禅道指派人员计算完成: 马刘磊 (索引: 1, 总人数: 2)
+2025-09-24 15:46:25 - oncall - INFO - 函数执行完成: src.services.excel_handler.get_bug_assignment_person, 耗时: 0.000秒
+2025-09-24 15:46:25 - oncall.app - INFO - 值班人员: 武恒, 禅道指派: 马刘磊
+2025-09-24 15:46:25 - oncall.app - INFO - 准备发送综合通知，内容：【OnCall】
+日期：2025-09-19
+值班人：武恒
+禅道指派：马刘磊
+2025-09-24 15:46:25 - oncall.app - INFO - ✅ [进程26984] 已发送2025-09-19综合工作安排通知
+2025-09-24 15:46:25 - oncall - INFO - 完成: 发送综合工作安排通知, 耗时: 0.353秒
+2025-09-24 15:46:25 - oncall - INFO - 函数执行完成: __main__.send_combined_notification, 耗时: 0.353秒
+2025-09-24 15:47:00 - oncall - INFO - 开始执行函数: __main__.send_combined_notification
+2025-09-24 15:47:00 - oncall.app - INFO - [进程27014] 开始发送综合通知 - 2025-09-24 15:47:00
+2025-09-24 15:47:00 - oncall - INFO - 开始: 发送综合工作安排通知
+2025-09-24 15:47:00 - oncall.app - INFO - 查询2025-11-21的工作安排
+2025-09-24 15:47:00 - oncall - INFO - 开始执行函数: src.services.excel_handler.get_original_duty_person
+2025-09-24 15:47:00 - oncall.excel_handler - INFO - 开始查询值班人员，测试数据: 2025-11-21
+2025-09-24 15:47:00 - oncall.excel_handler - INFO -  开始读取Excel文件
+2025-09-24 15:47:00 - oncall.excel_handler - INFO - ✅ Excel文件读取成功，共63行数据
+2025-09-24 15:47:00 - oncall.excel_handler - INFO - 🔍 查找日期 2025-11-21 的值班信息
+2025-09-24 15:47:00 - oncall.excel_handler - WARNING - ⚠️ 未在值班表中找到2025-11-21的值班记录，开始更新值班计划
+2025-09-24 15:47:00 - oncall - INFO - 开始: 更新值班计划表
+2025-09-24 15:47:00 - oncall - INFO - 开始执行函数: src.services.excel_handler.replace_dates
+2025-09-24 15:47:00 - oncall.excel_handler - INFO - 开始更新DataFrame日期，起始日期: 2025-11-21
+2025-09-24 15:47:00 - oncall.excel_handler - INFO - ✅ DataFrame日期更新完成，共更新63行
+2025-09-24 15:47:00 - oncall - INFO - 函数执行完成: src.services.excel_handler.replace_dates, 耗时: 0.002秒
+2025-09-24 15:47:00 - oncall.excel_handler - INFO - 💾 保存更新后的值班计划到: ./data/值班计划表.xlsx
+2025-09-24 15:47:00 - oncall.excel_handler - INFO - ✅ 值班计划已保存: ./data/值班计划表.xlsx
+2025-09-24 15:47:00 - oncall.excel_handler - INFO -  重新读取更新后的文件
+2025-09-24 15:47:00 - oncall.excel_handler - INFO - 🔍 重新查找日期 2025-11-21 的值班信息
+2025-09-24 15:47:00 - oncall.excel_handler - INFO - ✅ 更新后找到值班人员: 武恒
+2025-09-24 15:47:00 - oncall - INFO - 完成: 更新值班计划表, 耗时: 0.016秒
+2025-09-24 15:47:00 - oncall - INFO - 函数执行完成: src.services.excel_handler.get_original_duty_person, 耗时: 0.080秒
+2025-09-24 15:47:00 - oncall - INFO - 开始执行函数: src.services.excel_handler.get_bug_assignment_person
+2025-09-24 15:47:00 - oncall.excel_handler - INFO - 开始获取禅道指派人员，测试数据: 2025-11-21
+2025-09-24 15:47:00 - oncall.excel_handler - INFO - ✅ 禅道指派人员计算完成: 张笑笑 (索引: 0, 总人数: 2)
+2025-09-24 15:47:00 - oncall - INFO - 函数执行完成: src.services.excel_handler.get_bug_assignment_person, 耗时: 0.000秒
+2025-09-24 15:47:00 - oncall.app - INFO - 值班人员: 武恒, 禅道指派: 张笑笑
+2025-09-24 15:47:00 - oncall.app - INFO - 准备发送综合通知，内容：【OnCall】
+日期：2025-11-21
+值班人：武恒
+禅道指派：张笑笑
+2025-09-24 15:47:00 - oncall.app - INFO - ✅ [进程27014] 已发送2025-11-21综合工作安排通知
+2025-09-24 15:47:00 - oncall - INFO - 完成: 发送综合工作安排通知, 耗时: 0.350秒
+2025-09-24 15:47:00 - oncall - INFO - 函数执行完成: __main__.send_combined_notification, 耗时: 0.351秒
+2025-09-24 15:51:16 - oncall - INFO - 开始执行函数: __main__.send_combined_notification
+2025-09-24 15:51:16 - oncall.app - INFO - [进程27190] 开始发送综合通知 - 2025-09-24 15:51:16
+2025-09-24 15:51:16 - oncall - INFO - 开始: 发送综合工作安排通知
+2025-09-24 15:51:16 - oncall.app - INFO - 查询2025-09-19的工作安排
+2025-09-24 15:51:16 - oncall - INFO - 开始执行函数: src.services.excel_handler.get_original_duty_person
+2025-09-24 15:51:16 - oncall.excel_handler - INFO - 开始查询值班人员，测试数据: 2025-09-19
+2025-09-24 15:51:16 - oncall.excel_handler - INFO -  开始读取Excel文件
+2025-09-24 15:51:16 - oncall.excel_handler - INFO - ✅ Excel文件读取成功，共63行数据
+2025-09-24 15:51:16 - oncall.excel_handler - INFO - 🔍 查找日期 2025-09-19 的值班信息
+2025-09-24 15:51:16 - oncall.excel_handler - WARNING - ⚠️ 未在值班表中找到2025-09-19的值班记录，开始更新值班计划
+2025-09-24 15:51:16 - oncall - INFO - 开始: 更新值班计划表
+2025-09-24 15:51:16 - oncall - INFO - 开始执行函数: src.services.excel_handler.replace_dates
+2025-09-24 15:51:16 - oncall.excel_handler - INFO - 开始更新DataFrame日期，起始日期: 2025-09-19
+2025-09-24 15:51:16 - oncall.excel_handler - INFO - ✅ DataFrame日期更新完成，共更新63行
+2025-09-24 15:51:16 - oncall - INFO - 函数执行完成: src.services.excel_handler.replace_dates, 耗时: 0.002秒
+2025-09-24 15:51:16 - oncall.excel_handler - INFO - 💾 保存更新后的值班计划到: ./data/值班计划表.xlsx
+2025-09-24 15:51:16 - oncall.excel_handler - INFO - ✅ 值班计划已保存: ./data/值班计划表.xlsx
+2025-09-24 15:51:16 - oncall.excel_handler - INFO -  重新读取更新后的文件
+2025-09-24 15:51:16 - oncall.excel_handler - INFO - 🔍 重新查找日期 2025-09-19 的值班信息
+2025-09-24 15:51:16 - oncall.excel_handler - INFO - ✅ 更新后找到值班人员: 武恒
+2025-09-24 15:51:16 - oncall - INFO - 完成: 更新值班计划表, 耗时: 0.527秒
+2025-09-24 15:51:16 - oncall - INFO - 函数执行完成: src.services.excel_handler.get_original_duty_person, 耗时: 0.598秒
+2025-09-24 15:51:16 - oncall - INFO - 开始执行函数: src.services.excel_handler.get_bug_assignment_person
+2025-09-24 15:51:16 - oncall.excel_handler - INFO - 开始获取禅道指派人员，测试数据: 2025-09-19
+2025-09-24 15:51:16 - oncall.excel_handler - INFO - ✅ 禅道指派人员计算完成: 马刘磊 (索引: 1, 总人数: 2)
+2025-09-24 15:51:16 - oncall - INFO - 函数执行完成: src.services.excel_handler.get_bug_assignment_person, 耗时: 0.000秒
+2025-09-24 15:51:16 - oncall.app - INFO - 值班人员: 武恒, 禅道指派: 马刘磊
+2025-09-24 15:51:16 - oncall.app - INFO - 准备发送综合通知，内容：【OnCall】
+日期：2025-09-19
+值班人：武恒
+禅道指派：马刘磊
+2025-09-24 15:51:16 - oncall.app - INFO - ✅ [进程27190] 已发送2025-09-19综合工作安排通知
+2025-09-24 15:51:16 - oncall - INFO - 完成: 发送综合工作安排通知, 耗时: 0.846秒
+2025-09-24 15:51:16 - oncall - INFO - 函数执行完成: __main__.send_combined_notification, 耗时: 0.847秒
+2025-09-24 15:52:59 - oncall - INFO - 开始执行函数: __main__.send_combined_notification
+2025-09-24 15:52:59 - oncall.app - INFO - [进程27222] 开始发送综合通知 - 2025-09-24 15:52:59
+2025-09-24 15:52:59 - oncall - INFO - 开始: 发送综合工作安排通知
+2025-09-24 15:52:59 - oncall.app - INFO - 查询2025-09-19的工作安排
+2025-09-24 15:52:59 - oncall - INFO - 开始执行函数: src.services.excel_handler.get_original_duty_person
+2025-09-24 15:52:59 - oncall.excel_handler - INFO - 开始查询值班人员，测试数据: 2025-09-19
+2025-09-24 15:52:59 - oncall.excel_handler - INFO -  开始读取Excel文件
+2025-09-24 15:52:59 - oncall.excel_handler - INFO - ✅ Excel文件读取成功，共63行数据
+2025-09-24 15:52:59 - oncall.excel_handler - INFO - 🔍 查找日期 2025-09-19 的值班信息
+2025-09-24 15:52:59 - oncall.excel_handler - INFO - ✅ 找到值班人员: 武恒
+2025-09-24 15:52:59 - oncall - INFO - 函数执行完成: src.services.excel_handler.get_original_duty_person, 耗时: 0.068秒
+2025-09-24 15:52:59 - oncall - INFO - 开始执行函数: src.services.excel_handler.get_bug_assignment_person
+2025-09-24 15:52:59 - oncall.excel_handler - INFO - 开始获取禅道指派人员，测试数据: 2025-09-19
+2025-09-24 15:52:59 - oncall.excel_handler - INFO - ✅ 禅道指派人员计算完成: 马刘磊 (索引: 1, 总人数: 2)
+2025-09-24 15:52:59 - oncall - INFO - 函数执行完成: src.services.excel_handler.get_bug_assignment_person, 耗时: 0.000秒
+2025-09-24 15:52:59 - oncall.app - INFO - 值班人员: 武恒, 禅道指派: 马刘磊
+2025-09-24 15:52:59 - oncall.app - INFO - 准备发送综合通知，内容：【OnCall】
+日期：2025-09-19
+值班人：武恒
+禅道指派：马刘磊
+2025-09-24 15:52:59 - oncall.app - INFO - ✅ [进程27222] 已发送2025-09-19综合工作安排通知
+2025-09-24 15:52:59 - oncall - INFO - 完成: 发送综合工作安排通知, 耗时: 0.320秒
+2025-09-24 15:52:59 - oncall - INFO - 函数执行完成: __main__.send_combined_notification, 耗时: 0.320秒
+2025-09-24 15:53:10 - oncall - INFO - 开始执行函数: __main__.send_combined_notification
+2025-09-24 15:53:10 - oncall.app - INFO - [进程27236] 开始发送综合通知 - 2025-09-24 15:53:10
+2025-09-24 15:53:10 - oncall - INFO - 开始: 发送综合工作安排通知
+2025-09-24 15:53:10 - oncall.app - INFO - 查询2025-09-18的工作安排
+2025-09-24 15:53:10 - oncall - INFO - 开始执行函数: src.services.excel_handler.get_original_duty_person
+2025-09-24 15:53:10 - oncall.excel_handler - INFO - 开始查询值班人员，测试数据: 2025-09-18
+2025-09-24 15:53:10 - oncall.excel_handler - INFO -  开始读取Excel文件
+2025-09-24 15:53:10 - oncall.excel_handler - INFO - ✅ Excel文件读取成功，共63行数据
+2025-09-24 15:53:10 - oncall.excel_handler - INFO - 🔍 查找日期 2025-09-18 的值班信息
+2025-09-24 15:53:10 - oncall.excel_handler - WARNING - ⚠️ 未在值班表中找到2025-09-18的值班记录，开始更新值班计划
+2025-09-24 15:53:10 - oncall - INFO - 开始: 更新值班计划表
+2025-09-24 15:53:10 - oncall - INFO - 开始执行函数: src.services.excel_handler.replace_dates
+2025-09-24 15:53:10 - oncall.excel_handler - INFO - 开始更新DataFrame日期，起始日期: 2025-09-18
+2025-09-24 15:53:10 - oncall.excel_handler - INFO - ✅ DataFrame日期更新完成，共更新63行
+2025-09-24 15:53:10 - oncall - INFO - 函数执行完成: src.services.excel_handler.replace_dates, 耗时: 0.002秒
+2025-09-24 15:53:10 - oncall.excel_handler - INFO - 💾 保存更新后的值班计划到: ./data/值班计划表.xlsx
+2025-09-24 15:53:10 - oncall.excel_handler - INFO - ✅ 值班计划已保存: ./data/值班计划表.xlsx
+2025-09-24 15:53:10 - oncall.excel_handler - INFO -  重新读取更新后的文件
+2025-09-24 15:53:10 - oncall.excel_handler - INFO - 🔍 重新查找日期 2025-09-18 的值班信息
+2025-09-24 15:53:10 - oncall.excel_handler - INFO - ✅ 更新后找到值班人员: 武恒
+2025-09-24 15:53:10 - oncall - INFO - 完成: 更新值班计划表, 耗时: 0.274秒
+2025-09-24 15:53:10 - oncall - INFO - 函数执行完成: src.services.excel_handler.get_original_duty_person, 耗时: 0.321秒
+2025-09-24 15:53:10 - oncall - INFO - 开始执行函数: src.services.excel_handler.get_bug_assignment_person
+2025-09-24 15:53:10 - oncall.excel_handler - INFO - 开始获取禅道指派人员，测试数据: 2025-09-18
+2025-09-24 15:53:10 - oncall.excel_handler - INFO - ✅ 禅道指派人员计算完成: 张笑笑 (索引: 0, 总人数: 2)
+2025-09-24 15:53:10 - oncall - INFO - 函数执行完成: src.services.excel_handler.get_bug_assignment_person, 耗时: 0.000秒
+2025-09-24 15:53:10 - oncall.app - INFO - 值班人员: 武恒, 禅道指派: 张笑笑
+2025-09-24 15:53:10 - oncall.app - INFO - 准备发送综合通知，内容：【OnCall】
+日期：2025-09-18
+值班人：武恒
+禅道指派：张笑笑
+2025-09-24 15:53:11 - oncall.app - INFO - ✅ [进程27236] 已发送2025-09-18综合工作安排通知
+2025-09-24 15:53:11 - oncall - INFO - 完成: 发送综合工作安排通知, 耗时: 0.595秒
+2025-09-24 15:53:11 - oncall - INFO - 函数执行完成: __main__.send_combined_notification, 耗时: 0.595秒
+2025-09-24 15:54:21 - oncall - INFO - 开始执行函数: __main__.send_combined_notification
+2025-09-24 15:54:21 - oncall.app - INFO - [进程27309] 开始发送综合通知 - 2025-09-24 15:54:21
+2025-09-24 15:54:21 - oncall - INFO - 开始: 发送综合工作安排通知
+2025-09-24 15:54:21 - oncall.app - INFO - 查询2025-09-17的工作安排
+2025-09-24 15:54:21 - oncall - INFO - 开始执行函数: src.services.excel_handler.get_original_duty_person
+2025-09-24 15:54:21 - oncall.excel_handler - INFO - 开始查询值班人员，测试数据: 2025-09-17
+2025-09-24 15:54:21 - oncall.excel_handler - INFO -  开始读取Excel文件
+2025-09-24 15:54:21 - oncall.excel_handler - INFO - ✅ Excel文件读取成功，共63行数据
+2025-09-24 15:54:21 - oncall.excel_handler - INFO - 🔍 查找日期 2025-09-17 的值班信息
+2025-09-24 15:54:21 - oncall.excel_handler - WARNING - ⚠️ 未在值班表中找到2025-09-17的值班记录，开始更新值班计划
+2025-09-24 15:54:21 - oncall - INFO - 开始: 更新值班计划表
+2025-09-24 15:54:21 - oncall - INFO - 开始执行函数: src.services.excel_handler.replace_dates
+2025-09-24 15:54:21 - oncall.excel_handler - INFO - 开始更新DataFrame日期，起始日期: 2025-09-17
+2025-09-24 15:54:21 - oncall.excel_handler - INFO - ✅ DataFrame日期更新完成，共更新63行
+2025-09-24 15:54:21 - oncall - INFO - 函数执行完成: src.services.excel_handler.replace_dates, 耗时: 0.002秒
+2025-09-24 15:54:21 - oncall.excel_handler - INFO - 💾 保存更新后的值班计划到: ./data/值班计划表.xlsx
+2025-09-24 15:54:21 - oncall.excel_handler - INFO - ✅ 值班计划已保存: ./data/值班计划表.xlsx
+2025-09-24 15:54:22 - oncall.excel_handler - INFO -  重新读取更新后的文件
+2025-09-24 15:54:22 - oncall.excel_handler - INFO - 🔍 重新查找日期 2025-09-17 的值班信息
+2025-09-24 15:54:22 - oncall.excel_handler - INFO - ✅ 更新后找到值班人员: 武恒
+2025-09-24 15:54:22 - oncall - INFO - 完成: 更新值班计划表, 耗时: 0.271秒
+2025-09-24 15:54:22 - oncall - INFO - 函数执行完成: src.services.excel_handler.get_original_duty_person, 耗时: 0.338秒
+2025-09-24 15:54:22 - oncall - INFO - 开始执行函数: src.services.excel_handler.get_bug_assignment_person
+2025-09-24 15:54:22 - oncall.excel_handler - INFO - 开始获取禅道指派人员，测试数据: 2025-09-17
+2025-09-24 15:54:22 - oncall.excel_handler - INFO - ✅ 禅道指派人员计算完成: 马刘磊 (索引: 1, 总人数: 2)
+2025-09-24 15:54:22 - oncall - INFO - 函数执行完成: src.services.excel_handler.get_bug_assignment_person, 耗时: 0.000秒
+2025-09-24 15:54:22 - oncall.app - INFO - 值班人员: 武恒, 禅道指派: 马刘磊
+2025-09-24 15:54:22 - oncall.app - INFO - 准备发送综合通知，内容：【OnCall】
+日期：2025-09-17
+值班人：武恒
+禅道指派：马刘磊
+2025-09-24 15:54:22 - oncall.app - INFO - ✅ [进程27309] 已发送2025-09-17综合工作安排通知
+2025-09-24 15:54:22 - oncall - INFO - 完成: 发送综合工作安排通知, 耗时: 0.615秒
+2025-09-24 15:54:22 - oncall - INFO - 函数执行完成: __main__.send_combined_notification, 耗时: 0.615秒
+2025-09-24 15:54:27 - oncall - INFO - 开始执行函数: __main__.send_combined_notification
+2025-09-24 15:54:27 - oncall.app - INFO - [进程27320] 开始发送综合通知 - 2025-09-24 15:54:27
+2025-09-24 15:54:27 - oncall - INFO - 开始: 发送综合工作安排通知
+2025-09-24 15:54:27 - oncall.app - INFO - 查询2025-09-16的工作安排
+2025-09-24 15:54:27 - oncall - INFO - 开始执行函数: src.services.excel_handler.get_original_duty_person
+2025-09-24 15:54:27 - oncall.excel_handler - INFO - 开始查询值班人员，测试数据: 2025-09-16
+2025-09-24 15:54:27 - oncall.excel_handler - INFO -  开始读取Excel文件
+2025-09-24 15:54:27 - oncall.excel_handler - INFO - ✅ Excel文件读取成功，共63行数据
+2025-09-24 15:54:27 - oncall.excel_handler - INFO - 🔍 查找日期 2025-09-16 的值班信息
+2025-09-24 15:54:27 - oncall.excel_handler - WARNING - ⚠️ 未在值班表中找到2025-09-16的值班记录，开始更新值班计划
+2025-09-24 15:54:27 - oncall - INFO - 开始: 更新值班计划表
+2025-09-24 15:54:27 - oncall - INFO - 开始执行函数: src.services.excel_handler.replace_dates
+2025-09-24 15:54:27 - oncall.excel_handler - INFO - 开始更新DataFrame日期，起始日期: 2025-09-16
+2025-09-24 15:54:27 - oncall.excel_handler - INFO - ✅ DataFrame日期更新完成，共更新63行
+2025-09-24 15:54:27 - oncall - INFO - 函数执行完成: src.services.excel_handler.replace_dates, 耗时: 0.001秒
+2025-09-24 15:54:27 - oncall.excel_handler - INFO - 💾 保存更新后的值班计划到: ./data/值班计划表.xlsx
+2025-09-24 15:54:27 - oncall.excel_handler - INFO - ✅ 值班计划已保存: ./data/值班计划表.xlsx
+2025-09-24 15:54:27 - oncall.excel_handler - INFO -  重新读取更新后的文件
+2025-09-24 15:54:27 - oncall.excel_handler - INFO - 🔍 重新查找日期 2025-09-16 的值班信息
+2025-09-24 15:54:27 - oncall.excel_handler - INFO - ✅ 更新后找到值班人员: 武恒
+2025-09-24 15:54:27 - oncall - INFO - 完成: 更新值班计划表, 耗时: 0.276秒
+2025-09-24 15:54:27 - oncall - INFO - 函数执行完成: src.services.excel_handler.get_original_duty_person, 耗时: 0.326秒
+2025-09-24 15:54:27 - oncall - INFO - 开始执行函数: src.services.excel_handler.get_bug_assignment_person
+2025-09-24 15:54:27 - oncall.excel_handler - INFO - 开始获取禅道指派人员，测试数据: 2025-09-16
+2025-09-24 15:54:27 - oncall.excel_handler - INFO - ✅ 禅道指派人员计算完成: 张笑笑 (索引: 0, 总人数: 2)
+2025-09-24 15:54:27 - oncall - INFO - 函数执行完成: src.services.excel_handler.get_bug_assignment_person, 耗时: 0.000秒
+2025-09-24 15:54:27 - oncall.app - INFO - 值班人员: 武恒, 禅道指派: 张笑笑
+2025-09-24 15:54:27 - oncall.app - INFO - 准备发送综合通知，内容：【OnCall】
+日期：2025-09-16
+值班人：武恒
+禅道指派：张笑笑
+2025-09-24 15:54:28 - oncall.app - INFO - ✅ [进程27320] 已发送2025-09-16综合工作安排通知
+2025-09-24 15:54:28 - oncall - INFO - 完成: 发送综合工作安排通知, 耗时: 0.570秒
+2025-09-24 15:54:28 - oncall - INFO - 函数执行完成: __main__.send_combined_notification, 耗时: 0.570秒
+2025-09-24 15:57:41 - oncall.app - INFO - 🚀 === OnCall系统启动 ===
+2025-09-24 15:57:41 - oncall.app - INFO - 进程ID: 28101
+2025-09-24 15:57:41 - oncall.app - INFO - Flask配置: 0.0.0.0:5008, Debug: False
+2025-09-24 15:57:41 - oncall - INFO - 开始: 创建Flask应用
+2025-09-24 15:57:41 - oncall.app - INFO - Flask应用创建成功
+2025-09-24 15:57:41 - oncall - INFO - 完成: 创建Flask应用, 耗时: 0.002秒
+2025-09-24 15:57:41 - oncall.app - INFO - 启动定时任务线程...
+2025-09-24 15:57:41 - oncall.app - INFO - [进程28101] 启动定时任务调度器
+2025-09-24 15:57:41 - oncall.app - INFO - 定时任务线程启动成功
+2025-09-24 15:57:41 - oncall.app - INFO - [进程28101] 已清除所有现有定时任务
+2025-09-24 15:57:41 - oncall.app - INFO - ✅ 应用启动成功，监听端口 5008
+2025-09-24 15:57:41 - oncall.app - INFO - �� 定时任务配置完成:
+2025-09-24 15:57:41 - oncall.app - INFO - 系统已就绪，等待请求...
+2025-09-24 15:57:41 - oncall.app - INFO -   - 08:30 发送禅道指派通知
+2025-09-24 15:57:41 - oncall.app - INFO -   - 17:20 发送综合工作安排通知
+2025-09-24 15:57:41 - oncall.app - INFO - 开始运行调度器...
+2025-09-24 15:58:02 - oncall.api - INFO - 收到钉钉Webhook请求 - IP: 59.82.83.222, 方法: POST
+2025-09-24 15:58:02 - oncall.api - INFO - 收到钉钉消息数据: {"senderPlatform": "Mac", "conversationId": "cidOIyoZ+iSH+Xd2kGDkQan6w==", "atUsers": [{"dingtalkId": "$:LWCP_v1:$HhnnADi8UMdBFqp6nbN7W78EuoB+3P15"}], "chatbotCorpId": "dingb8740e62bcc6ba1e24f2f5cc6abecb85", "chatbotUserId": "$:LWCP_v1:$HhnnADi8UMdBFqp6nbN7W78EuoB+3P15", "openThreadId": "cidOIyoZ+iSH+Xd2kGDkQan6w==", "msgId": "msgYd67ms+RLRubxjbHCO1npg==", "senderNick": "ㅤ饿了么~", "isAdmin": true, "senderStaffId": "163008641524410432", "sessionWebhookExpiredTime": 1758706082581, "createAt": 1758700682326, "senderCorpId": "dingb8740e62bcc6ba1e24f2f5cc6abecb85", "conversationType": "2", "senderId": "$:LWCP_v1:$rl/VMptM8EA9i9hP3kBukQ==", "conversationTitle": "测试小群", "isInAtList": true, "sessionWebhook": "https://oapi.dingtalk.com/robot/sendBySession?session=dabc3ef23375f29d725544035ac79540", "text": {"content": " 值班"}, "robotCode": "dingeekmytdfqs3qy8sn", "msgtype": "text"}
+2025-09-24 15:58:02 - oncall.api - INFO - 收到文本消息: 值班
+2025-09-24 15:58:02 - oncall.api - INFO - 匹配到关键词，开始处理
+2025-09-24 15:58:02 - oncall - INFO - 开始执行函数: src.services.excel_handler.get_original_duty_person
+2025-09-24 15:58:02 - oncall.excel_handler - INFO - 开始查询值班人员，测试数据: 2025-09-24
+2025-09-24 15:58:02 - oncall.excel_handler - INFO -  开始读取Excel文件
+2025-09-24 15:58:02 - oncall.excel_handler - INFO - ✅ Excel文件读取成功，共63行数据
+2025-09-24 15:58:02 - oncall.excel_handler - INFO - 🔍 查找日期 2025-09-24 的值班信息
+2025-09-24 15:58:02 - oncall.excel_handler - INFO - ✅ 找到值班人员: 王朝霞
+2025-09-24 15:58:02 - oncall - INFO - 函数执行完成: src.services.excel_handler.get_original_duty_person, 耗时: 0.107秒
+2025-09-24 15:58:02 - oncall - INFO - 开始执行函数: src.services.excel_handler.get_bug_assignment_person
+2025-09-24 15:58:02 - oncall.excel_handler - INFO - 开始获取禅道指派人员，测试数据: 2025-09-24
+2025-09-24 15:58:02 - oncall.excel_handler - INFO - ✅ 禅道指派人员计算完成: 张笑笑 (索引: 0, 总人数: 2)
+2025-09-24 15:58:02 - oncall - INFO - 函数执行完成: src.services.excel_handler.get_bug_assignment_person, 耗时: 0.000秒
+2025-09-24 15:58:02 - oncall.api - INFO - 查询结果 - 值班人: 王朝霞, 禅道指派: 张笑笑
+2025-09-24 15:58:02 - oncall.api - INFO - 准备回复内容: 📅 2025-09-24 工作安排：
+🔧 值班人：王朝霞
+🐛 禅道指派：张笑笑
+2025-09-24 16:11:40 - oncall.app - INFO - 👋 OnCall系统已关闭
+2025-09-24 16:46:23 - oncall.app - INFO - 🚀 === OnCall系统启动 ===
+2025-09-24 16:46:23 - oncall.app - INFO - 进程ID: 29422
+2025-09-24 16:46:23 - oncall.app - INFO - Flask配置: 0.0.0.0:5008, Debug: False
+2025-09-24 16:46:23 - oncall - INFO - 开始: 创建Flask应用
+2025-09-24 16:46:23 - oncall.app - INFO - Flask应用创建成功
+2025-09-24 16:46:23 - oncall - INFO - 完成: 创建Flask应用, 耗时: 0.002秒
+2025-09-24 16:46:23 - oncall.app - INFO - 启动定时任务线程...
+2025-09-24 16:46:23 - oncall.app - INFO - [进程29422] 启动定时任务调度器
+2025-09-24 16:46:23 - oncall.app - INFO - 定时任务线程启动成功
+2025-09-24 16:46:23 - oncall.app - INFO - [进程29422] 已清除所有现有定时任务
+2025-09-24 16:46:23 - oncall.app - INFO - ✅ 应用启动成功，监听端口 5008
+2025-09-24 16:46:23 - oncall.app - INFO - �� 定时任务配置完成:
+2025-09-24 16:46:23 - oncall.app - INFO - 系统已就绪，等待请求...
+2025-09-24 16:46:23 - oncall.app - INFO -   - 08:30 发送禅道指派通知
+2025-09-24 16:46:23 - oncall.app - INFO -   - 17:20 发送综合工作安排通知
+2025-09-24 16:46:23 - oncall.app - INFO - 开始运行调度器...
+2025-09-24 16:48:40 - oncall.api - INFO - 收到钉钉Webhook请求 - IP: 59.82.83.146, 方法: POST
+2025-09-24 16:48:40 - oncall.api - INFO - 收到钉钉消息数据: {"senderPlatform": "Mac", "conversationId": "cidOIyoZ+iSH+Xd2kGDkQan6w==", "atUsers": [{"dingtalkId": "$:LWCP_v1:$HhnnADi8UMdBFqp6nbN7W78EuoB+3P15"}], "chatbotCorpId": "dingb8740e62bcc6ba1e24f2f5cc6abecb85", "chatbotUserId": "$:LWCP_v1:$HhnnADi8UMdBFqp6nbN7W78EuoB+3P15", "openThreadId": "cidOIyoZ+iSH+Xd2kGDkQan6w==", "msgId": "msg1BBlc83ghEU0oiS2WqH5jg==", "senderNick": "ㅤ饿了么~", "isAdmin": true, "senderStaffId": "163008641524410432", "sessionWebhookExpiredTime": 1758709120396, "createAt": 1758703720178, "senderCorpId": "dingb8740e62bcc6ba1e24f2f5cc6abecb85", "conversationType": "2", "senderId": "$:LWCP_v1:$rl/VMptM8EA9i9hP3kBukQ==", "conversationTitle": "测试小群", "isInAtList": true, "sessionWebhook": "https://oapi.dingtalk.com/robot/sendBySession?session=dabc3ef23375f29d725544035ac79540", "text": {"content": " 值班"}, "robotCode": "dingeekmytdfqs3qy8sn", "msgtype": "text"}
+2025-09-24 16:48:40 - oncall.api - INFO - 收到文本消息: 值班
+2025-09-24 16:48:40 - oncall.api - INFO - 匹配到关键词，开始处理
+2025-09-24 16:48:40 - oncall - INFO - 开始执行函数: src.services.excel_handler.get_original_duty_person
+2025-09-24 16:48:40 - oncall.excel_handler - INFO - 开始查询值班人员，测试数据: 2025-09-24
+2025-09-24 16:48:40 - oncall.excel_handler - INFO -  开始读取Excel文件
+2025-09-24 16:48:40 - oncall.excel_handler - INFO - ✅ Excel文件读取成功，共63行数据
+2025-09-24 16:48:40 - oncall.excel_handler - INFO - 🔍 查找日期 2025-09-24 的值班信息
+2025-09-24 16:48:40 - oncall.excel_handler - INFO - ✅ 找到值班人员: 王朝霞
+2025-09-24 16:48:40 - oncall - INFO - 函数执行完成: src.services.excel_handler.get_original_duty_person, 耗时: 0.110秒
+2025-09-24 16:48:40 - oncall - INFO - 开始执行函数: src.services.excel_handler.get_bug_assignment_person
+2025-09-24 16:48:40 - oncall.excel_handler - INFO - 开始获取禅道指派人员，测试数据: 2025-09-24
+2025-09-24 16:48:40 - oncall.excel_handler - INFO - ✅ 禅道指派人员计算完成: 张笑笑 (索引: 0, 总人数: 2)
+2025-09-24 16:48:40 - oncall - INFO - 函数执行完成: src.services.excel_handler.get_bug_assignment_person, 耗时: 0.000秒
+2025-09-24 16:48:40 - oncall.api - INFO - 查询结果 - 值班人: 王朝霞, 禅道指派: 张笑笑
+2025-09-24 16:48:40 - oncall.api - INFO - 准备回复内容: 📅 2025-09-24 工作安排：
+🔧 值班人：王朝霞
+🐛 禅道指派：张笑笑
+2025-09-24 16:49:42 - oncall.app - INFO - 👋 OnCall系统已关闭
+2025-09-24 17:06:42 - oncall.app - INFO - 🚀 === OnCall系统启动 ===
+2025-09-24 17:06:42 - oncall.app - INFO - 进程ID: 30463
+2025-09-24 17:06:42 - oncall.app - INFO - Flask配置: 0.0.0.0:6000, Debug: False
+2025-09-24 17:06:42 - oncall - INFO - 开始: 创建Flask应用
+2025-09-24 17:06:42 - oncall.app - INFO - Flask应用创建成功
+2025-09-24 17:06:42 - oncall - INFO - 完成: 创建Flask应用, 耗时: 0.002秒
+2025-09-24 17:06:42 - oncall.app - INFO - 启动定时任务线程...
+2025-09-24 17:06:42 - oncall.app - INFO - [进程30463] 启动定时任务调度器
+2025-09-24 17:06:42 - oncall.app - INFO - 定时任务线程启动成功
+2025-09-24 17:06:42 - oncall.app - INFO - [进程30463] 已清除所有现有定时任务
+2025-09-24 17:06:42 - oncall.app - INFO - ✅ 应用启动成功，监听端口 6000
+2025-09-24 17:06:42 - oncall.app - INFO - �� 定时任务配置完成:
+2025-09-24 17:06:42 - oncall.app - INFO - 系统已就绪，等待请求...
+2025-09-24 17:06:42 - oncall.app - INFO -   - 08:30 发送禅道指派通知
+2025-09-24 17:06:42 - oncall.app - INFO -   - 17:20 发送综合工作安排通知
+2025-09-24 17:06:42 - oncall.app - INFO - 开始运行调度器...
+2025-09-24 17:06:59 - oncall.api - INFO - 收到钉钉Webhook请求 - IP: 59.82.83.144, 方法: GET
+2025-09-24 17:06:59 - oncall.api - INFO - 钉钉连接测试请求
+2025-09-24 17:07:01 - oncall.api - INFO - 收到钉钉Webhook请求 - IP: 59.82.83.38, 方法: GET
+2025-09-24 17:07:01 - oncall.api - INFO - 钉钉连接测试请求
+2025-09-24 17:07:01 - oncall.api - INFO - 收到钉钉Webhook请求 - IP: 59.82.83.92, 方法: GET
+2025-09-24 17:07:01 - oncall.api - INFO - 钉钉连接测试请求
+2025-09-24 17:07:31 - oncall.app - INFO - 👋 OnCall系统已关闭
+2025-11-21 14:23:40 - oncall - INFO - 开始执行函数: __main__.send_bug_assignment_notification
+2025-11-21 14:23:40 - oncall.app - INFO - 发送每日禅道指派人员通知
+2025-11-21 14:23:40 - oncall - INFO - 开始: 发送禅道指派通知
+2025-11-21 14:23:40 - oncall.app - INFO - 发送日期：2025-11-21
+2025-11-21 14:23:40 - oncall - INFO - 开始执行函数: src.services.excel_handler.get_bug_assignment_person
+2025-11-21 14:23:40 - oncall.excel_handler - INFO - 开始获取禅道指派人员，测试数据: 2025-11-21
+2025-11-21 14:23:40 - oncall.excel_handler - INFO - ✅ 禅道指派人员计算完成: 张笑笑 (索引: 0, 总人数: 2)
+2025-11-21 14:23:40 - oncall - INFO - 函数执行完成: src.services.excel_handler.get_bug_assignment_person, 耗时: 0.000秒
+2025-11-21 14:23:40 - oncall.app - INFO - 准备发送钉钉通知，内容：【今日禅道指派】
+日期：2025-11-21
+指派人员：张笑笑
+2025-11-21 14:23:41 - oncall.app - INFO - ✅ 已发送2025-11-21禅道指派通知给张笑笑
+2025-11-21 14:23:41 - oncall - INFO - 完成: 发送禅道指派通知, 耗时: 0.288秒
+2025-11-21 14:23:41 - oncall - INFO - 函数执行完成: __main__.send_bug_assignment_notification, 耗时: 0.288秒
+2025-11-21 14:23:59 - oncall - INFO - 开始执行函数: __main__.send_combined_notification
+2025-11-21 14:23:59 - oncall.app - INFO - [进程55292] 开始发送综合通知 - 2025-11-21 14:23:59
+2025-11-21 14:23:59 - oncall - INFO - 开始: 发送综合工作安排通知
+2025-11-21 14:23:59 - oncall.app - INFO - 查询2025-11-21的工作安排
+2025-11-21 14:23:59 - oncall - INFO - 开始执行函数: src.services.excel_handler.get_original_duty_person
+2025-11-21 14:23:59 - oncall.excel_handler - INFO - 开始查询值班人员，测试数据: 2025-11-21
+2025-11-21 14:23:59 - oncall.excel_handler - INFO -  开始读取Excel文件
+2025-11-21 14:23:59 - oncall.excel_handler - INFO - ✅ Excel文件读取成功，共64行数据
+2025-11-21 14:23:59 - oncall.excel_handler - ERROR - ❌ Excel文件中缺少必需的列: 姓名
+2025-11-21 14:23:59 - oncall.excel_handler - ERROR - Excel文件中实际存在的列: 日期, 星期, 技术值班人
+2025-11-21 14:23:59 - oncall - INFO - 函数执行完成: src.services.excel_handler.get_original_duty_person, 耗时: 0.086秒
+2025-11-21 14:23:59 - oncall - INFO - 开始执行函数: src.services.excel_handler.get_bug_assignment_person
+2025-11-21 14:23:59 - oncall.excel_handler - INFO - 开始获取禅道指派人员，测试数据: 2025-11-21
+2025-11-21 14:23:59 - oncall.excel_handler - INFO - ✅ 禅道指派人员计算完成: 张笑笑 (索引: 0, 总人数: 2)
+2025-11-21 14:23:59 - oncall - INFO - 函数执行完成: src.services.excel_handler.get_bug_assignment_person, 耗时: 0.000秒
+2025-11-21 14:23:59 - oncall.app - INFO - 值班人员: 未找到, 禅道指派: 张笑笑
+2025-11-21 14:23:59 - oncall.app - INFO - 准备发送综合通知，内容：【OnCall】
+日期：2025-11-21
+禅道指派：张笑笑
+2025-11-21 14:23:59 - oncall.app - INFO - ✅ [进程55292] 已发送2025-11-21综合工作安排通知
+2025-11-21 14:23:59 - oncall - INFO - 完成: 发送综合工作安排通知, 耗时: 0.337秒
+2025-11-21 14:23:59 - oncall - INFO - 函数执行完成: __main__.send_combined_notification, 耗时: 0.337秒
+2025-11-21 14:24:37 - oncall - INFO - 开始执行函数: __main__.send_combined_notification
+2025-11-21 14:24:37 - oncall.app - INFO - [进程55375] 开始发送综合通知 - 2025-11-21 14:24:37
+2025-11-21 14:24:37 - oncall - INFO - 开始: 发送综合工作安排通知
+2025-11-21 14:24:37 - oncall.app - INFO - 查询2025-11-21的工作安排
+2025-11-21 14:24:37 - oncall - INFO - 开始执行函数: src.services.excel_handler.get_original_duty_person
+2025-11-21 14:24:37 - oncall.excel_handler - INFO - 开始查询值班人员，测试数据: 2025-11-21
+2025-11-21 14:24:37 - oncall.excel_handler - INFO -  开始读取Excel文件
+2025-11-21 14:24:37 - oncall.excel_handler - INFO - ✅ Excel文件读取成功，共64行数据
+2025-11-21 14:24:37 - oncall.excel_handler - ERROR - ❌ Excel文件中缺少必需的列: 姓名
+2025-11-21 14:24:37 - oncall.excel_handler - ERROR - Excel文件中实际存在的列: 日期, 星期, 技术值班人
+2025-11-21 14:24:37 - oncall - INFO - 函数执行完成: src.services.excel_handler.get_original_duty_person, 耗时: 0.077秒
+2025-11-21 14:24:37 - oncall - INFO - 开始执行函数: src.services.excel_handler.get_bug_assignment_person
+2025-11-21 14:24:37 - oncall.excel_handler - INFO - 开始获取禅道指派人员，测试数据: 2025-11-21
+2025-11-21 14:24:37 - oncall.excel_handler - INFO - ✅ 禅道指派人员计算完成: 张笑笑 (索引: 0, 总人数: 2)
+2025-11-21 14:24:37 - oncall - INFO - 函数执行完成: src.services.excel_handler.get_bug_assignment_person, 耗时: 0.000秒
+2025-11-21 14:24:37 - oncall.app - INFO - 值班人员: 未找到, 禅道指派: 张笑笑
+2025-11-21 14:24:37 - oncall.app - INFO - 准备发送综合通知，内容：【OnCall】
+日期：2025-11-21
+禅道指派：张笑笑
+2025-11-21 14:24:37 - oncall.app - INFO - ✅ [进程55375] 已发送2025-11-21综合工作安排通知
+2025-11-21 14:24:37 - oncall - INFO - 完成: 发送综合工作安排通知, 耗时: 0.309秒
+2025-11-21 14:24:37 - oncall - INFO - 函数执行完成: __main__.send_combined_notification, 耗时: 0.310秒
+2025-11-21 14:28:22 - oncall - INFO - 开始执行函数: __main__.send_combined_notification
+2025-11-21 14:28:22 - oncall.app - INFO - [进程55648] 开始发送综合通知 - 2025-11-21 14:28:22
+2025-11-21 14:28:22 - oncall - INFO - 开始: 发送综合工作安排通知
+2025-11-21 14:28:22 - oncall.app - INFO - 查询2025-11-21的工作安排
+2025-11-21 14:28:22 - oncall - INFO - 开始执行函数: src.services.excel_handler.get_original_duty_person
+2025-11-21 14:28:22 - oncall.excel_handler - INFO - 开始查询值班人员，测试数据: 2025-11-21
+2025-11-21 14:28:22 - oncall.excel_handler - INFO -  开始读取Excel文件
+2025-11-21 14:28:22 - oncall.excel_handler - INFO - ✅ Excel文件读取成功，共64行数据
+2025-11-21 14:28:22 - oncall.excel_handler - ERROR - ❌ Excel文件中缺少必需的列: 姓名
+2025-11-21 14:28:22 - oncall.excel_handler - ERROR - Excel文件中实际存在的列: 日期, 星期, 技术值班人
+2025-11-21 14:28:22 - oncall - INFO - 函数执行完成: src.services.excel_handler.get_original_duty_person, 耗时: 0.079秒
+2025-11-21 14:28:22 - oncall - INFO - 开始执行函数: src.services.excel_handler.get_bug_assignment_person
+2025-11-21 14:28:22 - oncall.excel_handler - INFO - 开始获取禅道指派人员，测试数据: 2025-11-21
+2025-11-21 14:28:22 - oncall.excel_handler - INFO - ✅ 禅道指派人员计算完成: 张笑笑 (索引: 0, 总人数: 2)
+2025-11-21 14:28:22 - oncall - INFO - 函数执行完成: src.services.excel_handler.get_bug_assignment_person, 耗时: 0.000秒
+2025-11-21 14:28:22 - oncall.app - INFO - 值班人员: 未找到, 禅道指派: 张笑笑
+2025-11-21 14:28:22 - oncall.app - INFO - 准备发送综合通知，内容：【OnCall】
+日期：2025-11-21
+禅道指派：张笑笑
+2025-11-21 14:28:22 - oncall.app - INFO - ✅ [进程55648] 已发送2025-11-21综合工作安排通知
+2025-11-21 14:28:22 - oncall - INFO - 完成: 发送综合工作安排通知, 耗时: 0.288秒
+2025-11-21 14:28:22 - oncall - INFO - 函数执行完成: __main__.send_combined_notification, 耗时: 0.288秒
+2025-11-21 14:29:39 - oncall - INFO - 开始执行函数: __main__.send_combined_notification
+2025-11-21 14:29:39 - oncall.app - INFO - [进程56108] 开始发送综合通知 - 2025-11-21 14:29:39
+2025-11-21 14:29:39 - oncall - INFO - 开始: 发送综合工作安排通知
+2025-11-21 14:29:39 - oncall.app - INFO - 查询2025-11-21的工作安排
+2025-11-21 14:29:39 - oncall - INFO - 开始执行函数: src.services.excel_handler.get_original_duty_person
+2025-11-21 14:29:39 - oncall.excel_handler - INFO - 开始查询值班人员，测试数据: 2025-11-21
+2025-11-21 14:29:39 - oncall.excel_handler - INFO -  开始读取Excel文件
+2025-11-21 14:29:39 - oncall.excel_handler - INFO - ✅ Excel文件读取成功，共64行数据
+2025-11-21 14:29:39 - oncall.excel_handler - INFO - 🔍 查找日期 2025-11-21 的值班信息
+2025-11-21 14:29:39 - oncall.excel_handler - WARNING - ⚠️ 未在值班表中找到2025-11-21的值班记录，开始更新值班计划
+2025-11-21 14:29:39 - oncall - INFO - 开始: 更新值班计划表
+2025-11-21 14:29:39 - oncall - INFO - 开始执行函数: src.services.excel_handler.replace_dates
+2025-11-21 14:29:39 - oncall.excel_handler - INFO - 开始更新DataFrame日期，起始日期: 2025-11-21
+2025-11-21 14:29:39 - oncall.excel_handler - INFO - ✅ DataFrame日期更新完成，共更新64行
+2025-11-21 14:29:39 - oncall - INFO - 函数执行完成: src.services.excel_handler.replace_dates, 耗时: 0.002秒
+2025-11-21 14:29:39 - oncall.excel_handler - INFO - 💾 保存更新后的值班计划到: ./data/值班计划表.xlsx
+2025-11-21 14:29:39 - oncall.excel_handler - INFO - ✅ 值班计划已保存: ./data/值班计划表.xlsx
+2025-11-21 14:29:39 - oncall.excel_handler - INFO -  重新读取更新后的文件
+2025-11-21 14:29:39 - oncall.excel_handler - INFO - 🔍 重新查找日期 2025-11-21 的值班信息
+2025-11-21 14:29:39 - oncall.excel_handler - INFO - ✅ 更新后找到值班人员: 何立强
+2025-11-21 14:29:39 - oncall - INFO - 完成: 更新值班计划表, 耗时: 0.309秒
+2025-11-21 14:29:39 - oncall - INFO - 函数执行完成: src.services.excel_handler.get_original_duty_person, 耗时: 0.395秒
+2025-11-21 14:29:39 - oncall - INFO - 开始执行函数: src.services.excel_handler.get_bug_assignment_person
+2025-11-21 14:29:39 - oncall.excel_handler - INFO - 开始获取禅道指派人员，测试数据: 2025-11-21
+2025-11-21 14:29:39 - oncall.excel_handler - INFO - ✅ 禅道指派人员计算完成: 张笑笑 (索引: 0, 总人数: 2)
+2025-11-21 14:29:39 - oncall - INFO - 函数执行完成: src.services.excel_handler.get_bug_assignment_person, 耗时: 0.000秒
+2025-11-21 14:29:39 - oncall.app - INFO - 值班人员: 何立强, 禅道指派: 张笑笑
+2025-11-21 14:29:39 - oncall.app - INFO - 准备发送综合通知，内容：【OnCall】
+日期：2025-11-21
+值班人：何立强
+禅道指派：张笑笑
+2025-11-21 14:29:39 - oncall.app - INFO - ✅ [进程56108] 已发送2025-11-21综合工作安排通知
+2025-11-21 14:29:39 - oncall - INFO - 完成: 发送综合工作安排通知, 耗时: 0.656秒
+2025-11-21 14:29:39 - oncall - INFO - 函数执行完成: __main__.send_combined_notification, 耗时: 0.657秒
+2025-11-21 15:36:55 - oncall - INFO - 开始执行函数: __main__.send_combined_notification
+2025-11-21 15:36:55 - oncall.app - INFO - [进程9321] 开始发送综合通知 - 2025-11-21 15:36:55
+2025-11-21 15:36:55 - oncall - INFO - 开始: 发送综合工作安排通知
+2025-11-21 15:36:55 - oncall.app - INFO - 查询2025-11-21的工作安排
+2025-11-21 15:36:55 - oncall - INFO - 开始执行函数: src.services.excel_handler.get_original_duty_person
+2025-11-21 15:36:55 - oncall.excel_handler - INFO - 开始查询值班人员，测试数据: 2025-11-21
+2025-11-21 15:36:55 - oncall.excel_handler - INFO -  开始读取Excel文件
+2025-11-21 15:36:55 - oncall.excel_handler - INFO - ✅ Excel文件读取成功，共64行数据
+2025-11-21 15:36:55 - oncall.excel_handler - INFO - 🔍 查找日期 2025-11-21 的值班信息
+2025-11-21 15:36:55 - oncall.excel_handler - INFO - ✅ 找到值班人员: 何立强
+2025-11-21 15:36:55 - oncall - INFO - 函数执行完成: src.services.excel_handler.get_original_duty_person, 耗时: 0.071秒
+2025-11-21 15:36:55 - oncall - INFO - 开始执行函数: src.services.excel_handler.get_bug_assignment_person
+2025-11-21 15:36:55 - oncall.excel_handler - INFO - 开始获取禅道指派人员，测试数据: 2025-11-21
+2025-11-21 15:36:55 - oncall.excel_handler - INFO - ✅ 禅道指派人员计算完成: 张笑笑 (索引: 0, 总人数: 2)
+2025-11-21 15:36:55 - oncall - INFO - 函数执行完成: src.services.excel_handler.get_bug_assignment_person, 耗时: 0.000秒
+2025-11-21 15:36:55 - oncall.app - INFO - 值班人员: 何立强, 禅道指派: 张笑笑
+2025-11-21 15:36:55 - oncall.app - INFO - 准备发送综合通知，内容：【OnCall】
+日期：2025-11-21
+值班人：何立强
+禅道指派：张笑笑
+2025-11-21 15:36:55 - oncall.app - INFO - ✅ [进程9321] 已发送2025-11-21综合工作安排通知
+2025-11-21 15:36:55 - oncall - INFO - 完成: 发送综合工作安排通知, 耗时: 0.304秒
+2025-11-21 15:36:55 - oncall - INFO - 函数执行完成: __main__.send_combined_notification, 耗时: 0.304秒
